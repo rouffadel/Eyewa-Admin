@@ -1,0 +1,634 @@
+body{margin:0px auto; padding:0px; background:url(../images/CtntCtnrBgImg.jpg) repeat;}
+.MainWrapper {width:100%; margin:0px; padding:0px; }
+.MainWrapper .HeaderWrapper { width:100%; margin:0px auto; background:url(../images/HeaderBg.png) center top no-repeat; height:100px;}
+
+.HeaderWrapper .HeaderCtnr {width:1010px; margin:0px auto; padding:0px; position:relative; }
+.HeaderWrapper .HeaderCtnr .LogoBox {background:url(../images/Logos.png) no-repeat; width:328px; height:25px; float:left; margin:20px 0px 0px 0px;}
+.HeaderCtnr .HeaderInfoBox {float:right; margin:15px 0px 0px 0px; padding:0px; width:580px;}
+.HeaderInfoBox .supportInfo {float:right; }
+.HeaderInfoBox .supportInfo label {font:normal 13px Arial, Helvetica, sans-serif; color:#84e6fd; float:left; margin:5px 0px 0px 0px;}
+.HeaderInfoBox .supportInfo h3{font:bold 20px Arial, Helvetica, sans-serif; color:#fff; float:left; position:absolute; right:0px; bottom:0px; margin:3px 0px 0px 10px; padding:0px;}
+
+.HeaderInfoBox .HaveAccount {float:right; width:100%; margin:8px 0px 0px 0px;}
+
+.HaveAccount .HaveAccountBox {float:right; background:url(../images/HaveAnAccountBgImg.png) repeat-x; height:47px; width:585px; -moz-border-radius:4px; -webkit-border-radius:4px;  border-radius:4px; }
+
+.HaveAccountBox label.HavAccountTxt {font:bold 15px arial; color:#000; float:left; margin:5px 18px 14px 10px !important;}
+.HaveAccountBox a.SignIn{background:url(../images/SignInBg.png) repeat-x; height:30px; -moz-border-radius:4px; -webkit-border-radius:4px;  border-radius:4px; float:left; padding:0px 15px; font:bold 13px/30px arial; color:#fff; margin:9px 8px; text-decoration:none;}
+.HaveAccountBox a.SignIn:hover {background:url(../images/SignInBgHover.png) repeat-x;}
+.HaveAccountBox a.Register{background:url(../images/RegisterNowBg.png) repeat-x; height:30px; -moz-border-radius:4px; -webkit-border-radius:4px;  border-radius:4px; float:left; padding:0px 15px; font:bold 13px/30px arial; color:#fff; margin:9px 8px; text-decoration:none;}
+.HaveAccountBox a.Register:hover {background:url(../images/RegisterNowBgHover.png) repeat-x;}
+
+.HaveAccount .shoppingCartBox {float:left; background:url(../images/ShoppingCartIcon.png) no-repeat left center; font:bold 13px arial; color:#fff; padding:14px 0px 14px 38px; margin:0px 0px 0px 14px;}
+.HaveAccount .shoppingCartBox label {color:#2c93b7; font-size:15px !important;}
+
+.HeaderCtnr ul.MenuCtnr {width:969px; margin:3px 0 0 0px; padding:0 0 0 38px; float:left; background:url(../images/MenuBgImg.png) repeat-x; height:37px;border-bottom:solid 1px #96c1d0}
+.HeaderCtnr ul.MenuCtnr li {float: left; list-style: none outside none; margin:10px 0 0; padding: 0;}
+.HeaderCtnr ul.MenuCtnr li.HomeLi {padding:1px 0px 0px 0px; margin:-2px 0px 0px -38px}
+.HeaderCtnr ul.MenuCtnr li a.Home {background:url(../images/HomeIcon.png) no-repeat; width:54px; height:55px; float:left;}
+.HeaderCtnr ul.MenuCtnr li a.MenuLinks {float:left; font:normal 13px Arial, Helvetica, sans-serif; color:#fefefe; text-decoration:none; border-right:solid 1px #7e7e7e; padding:0px 15px;}
+.HeaderCtnr ul.MenuCtnr li a.MenuLinks:hover {color:#24d5ff;}
+.MenuLinks {float:left; font:normal 13px Arial, Helvetica, sans-serif; color:#fefefe; text-decoration:none; border-right:solid 1px #7e7e7e; padding:0px 15px;}
+.MenuLinks:hover {color:#24d5ff;}
+.MainWrapper .MainCtntCtnr {width:1010px; margin:0px auto; padding:0px; }
+.MainCtntCtnr .ContentCtnr {width:1011px; background:url(../images/CtntCtnrBgimg.png) repeat-y; margin:0px auto !important; padding:0px; float:left; margin-bottom:90px;}
+
+.ContentCtnr .leftCol {width:270px; float:left; padding:10px 15px 10px 13px;}
+.leftCol .LeftColBox {width:100%; -moz-border-radius:6px; -webkit-border-radius:6px; border-radius:6px; float:left; margin:0px 0px 15px 0px;}
+.LeftColBox h2.BoxTitle {background:url(../images/BoxTypeGrdntBgImg.png) repeat-x; height:35px; font:bold 16px/35px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#222;
+margin:0px; padding:0px 0px 0px 10px; -moz-border-radius:4px 4px 0px 0px; -webkit-border-radius:4px 4px 0px 0px; border-radius:4px 4px 0px 0px; float:left; width:96.3%;}
+.LeftColBox .BoxCtnr {width:97.2%; float:left; border:solid 4px #d3eef7; -moz-border-radius:0px 0px 4px 4px; -webkit-border-radius:0px 0px 4px 4px; border-radius:0px 0px 4px 4px;}
+.LeftColBox .BoxCtnr label.Texttitle {font:normal 14px arial; color:#222; margin:5px 10px; padding:0px; float:left;}
+.LeftColBox select.selectionBox {border:solid 1px #8a8a8a; padding:8px 10px 9px; width:92.5%; background:url(../images/SelectionBoxBgImg.png) repeat-x; margin:5px 10px;}
+.LeftColBox span.TextInfo {font:normal 12px arial; color:#222; float:left; margin:5px 5px 10px 10px; width:56%;}
+.LeftColBox input.BtnStyle[type="button"]{background:url(../images/BtnBgImg.png) repeat-x; margin:0px; padding:0px 15px; height:30px; font:bold 14px/30px arial; color:#222; width:100%; border:solid 1px #005779;
+                                          float:left; margin:5px 0px 0px 10px; cursor:pointer;}
+.LeftColBox input.BtnStyle[type="button"]:hover{background:url(../images/BtnBgImgHover.png) repeat-x;}
+
+
+.LeftColBox .BoxCtnr ul.Categories {width:100%; float:left; margin:0px; padding:0px; }
+.LeftColBox .BoxCtnr ul.Categories li {list-style:none;  margin:0px; padding:6px 0 6px 10px; width:100%;}
+.LeftColBox .BoxCtnr ul.Categories li a {background:url(../images/CategoryIcon.png) no-repeat left center; padding:10px 0px 10px 25px; font:normal 12px arial; color:#000; text-decoration:none;}
+.LeftColBox .BoxCtnr ul.Categories li a:hover{color:#da0e03;}
+
+.LeftColBox .BoxCtnr a{width:100%; background:url(../images/CategoryIcon.png) no-repeat left center; padding:6px 0px 6px 25px; 
+                       float:left; margin:0px 0px 0px 10px;  font:normal 12px arial; color:#000; text-decoration:none;}
+.LeftColBox .BoxCtnr a:hover{color:#da0e03;}
+
+.LeftColBox .BoxCtnr img.OfferImg {width:100%;}
+.LeftColBox img.AdvtImg {width:100%;}
+
+/*.DivLinkCategories
+{background:url(../images/CategoryIcon.png) no-repeat left center; padding:0px 0px 0px 25px; font:normal 14px arial; color:#828282; text-decoration:none; line-height:1.5em;}
+
+.DivLinkCategories:hover{color:#008cbf;}*/
+/* border-bottom:2px dotted #ccc;*/
+                         
+ .DivTodaysOfferLabels
+{ padding:0px 0px 0px 25px; font:normal 14px arial; color:#828282; text-decoration:none;  line-height:1.5em;}
+.DivTodaysOfferLabels:hover{color:#008cbf;
+                         }
+                         
+                         
+                         
+                         
+   .Headertabscolumns
+   { font:bold 18px/30px "Trebuchet MS", Arial;text-decoration:none;background-color:#F6F6F6; background:#F6F6F6 url(images/ui-bg_glass_100_f6f6f6_1x400.png) 50% 50% repeat-x;
+ 
+       }                      
+    
+
+    
+
+
+.ContentCtnr .rightCol {width:690px; float:left; padding:10px 15px 10px 7px;}
+.rightCol .CallingCardSrchBlock {width:100%; pading:0px; margin:0px; background:url(../images/CallingCardSrchBlockBg.png) repeat-x; height:50px; -moz-border-radius:6px; -border-border-radius:6px; border-radius:6px; border:solid 1px #aeaeae; -moz-box-shadow:3px 3px 3px -1px #d1d1d1; -webkit-box-shadow: 3px 3px 3px -1px #d1d1d1; box-shadow:3px 3px 3px -1px #d1d1d1; }
+.CallingCardSrchBlock label.BlockTitle {font:normal 15px "Trebuchet MS", Arial, Helvetica, sans-serif; float:left; margin:14px 10px 0 15px; padding:0px; }
+.CallingCardSrchBlock select.CntrySlctnBox {border:solid 1px #8a8a8a; padding:7px 10px 7px; width:28%; background:url(../images/SelectionBoxBgImg.png) repeat-x; margin:8px 6px; float:left;}
+.CallingCardSrchBlock input.BtnStyle[type="button"]{background:url(../images/BtnBgImg.png) repeat-x; margin:0px; padding:0px 15px; height:32px; font:bold 14px/30px arial; color:#222; float:left; border:solid 1px #005779; margin:8px 0 0 10px; cursor:pointer;}
+.CallingCardSrchBlock input.BtnStyle[type="button"]:hover{background:url(../images/BtnBgImgHover.png) repeat-x;}
+
+
+
+
+.BtnStyle{background:url(../images/BtnBgImg.png) repeat-x; margin:0px; padding:0px 15px; height:32px; font:bold 14px/30px arial; color:#222; float:left; border:solid 1px #005779; margin:8px 0 0 10px; cursor:pointer;}
+.BtnStyle:hover{background:url(../images/BtnBgImgHover.png) repeat-x;}
+
+.rightCol .BannerSlider { float:left; width:690px; margin:14px 0px 0px 0px;}
+.rightCol .AbtInfo {width:690px; margin:15px 0px 0px 0px ; float:left;}
+.rightCol .AbtInfo h2 {margin:0px; padding:0px; font:normal 18px Arial, Helvetica, sans-serif; color:#DA0E03;}
+.rightCol .AbtInfo p.TxtInfo {font:normal 14px/25px tahoma; color:#222; margin:0px; padding:0px; float:left; width:100%;}
+
+.rightCol .TabberBox {float:left; width:100%; border:solid 1px #d6d6d6; -moz-border-radius:6px; -webkit-border-radius:6px; border-radius:6px;}
+
+.FooterBlock {background-color:#bee9fb ; width:100%; margin:0px auto; padding:0px; float:left; position:fixed; bottom:0px;}
+.FooterBlock p.FooterLinks {width:1010px; margin:0px auto; padding:10px 0px;}
+.FooterBlock p.FooterLinks a.FtrLink {   border-right: 1px solid #222222;
+    color: #222222;
+    float: left;
+    font: 12px arial;
+    margin: 0 0 15px !important;
+    padding: 0 10px;
+    text-decoration: none;}
+.FooterBlock p.FooterLinks a.FtrLink:hover {text-decoration:underline;}
+.FooterBlock p.FooterLinks label.copyrights {font:normal 12px arial; color:#4e9ab7 !important; float:left; margin:10px 0px 0px 0px !Important; width:100%; text-align:center; }
+.FooterBlock p.FooterLinks .FollowUs label {font:normal 14px arial; color:#222; float:left;}
+.FooterBlock p.FooterLinks .FollowUs a.Follow{float:left; margin:0px 8px; padding:0px; }
+.FooterBlock p.FooterLinks .FollowUs a.Follow img {border:none;}
+
+
+
+
+
+
+/*----------------------*/
+.Categoryheader {
+font: normal 20px arial;
+color:#2A7690;
+margin: 0px;
+padding: 10px 0px;
+}
+
+
+/*----------------------*/
+
+
+/* New Table Grid CHanges */
+table.GridViewStyleEuro tr.alt-row
+table.GridViewStyleEuro  {width:98%; border:solid 1px #ccc; margin:12px 0px 20px 0px;}
+.GridViewStyleEuro tbody {border:none;}
+table.GridViewStyleEuro tr {background-color:#fff;  width:100%; margin:0px; }
+table.GridViewStyleEuro tr.alt-row {background-color:#EAF9FF; width:100%; margin:0px; }
+tr.HeaderStyle {background: url('../images/bg-content-box.gif') top left repeat-x; color: #555;font-size: 1.1em;font-weight: bold;height:35px; border-bottom:solid 1px #ccc;}
+tr.HeaderStyle th {line-height:35px; padding:0px 08px; border-bottom:solid 1px #ccc;}
+tr.AltRowStyle {background-color:#CCF1FF; border:none; font:normal 12px arial; color:#222; height:35px;} 
+table.GridViewStyleEuro tr td {color:#222; padding:5px 10px; margin:0px;}
+table.GridViewStyleEuro tr.pgr  {height:30px; background-color:#e5e5e5; color:#000; font:normal 12px arial; border-top:1px #ccc solid;}
+table.GridViewStyleEuro tbody {border:none;}
+table.GridViewStyleEuro .pgr tr {background:none; border:none;}
+table.GridViewStyleEuro .pgr td {background:none; border:none;}
+table.GridViewStyleEuro .pgr td span {background:none; padding:0px 5px; font:normal 13px arial; color:#000;}
+table.GridViewStyleEuro .pgr td a {background:none; padding:0px 5px; font:normal 13px arial; color:#666;}
+
+
+
+
+
+/*----Gridview New Changes-----*/
+
+.gridView {font:bold 15px arial; color:#000; border:2px solid #80848D;border-radius:4px 4px 4px 4px;width:697px;
+}
+.gridView tr td {color:#222; font:normal 12px arial;}
+
+.gridView tr:nth-child(even) {background-color: #F3F3F3}
+.gridView tr:nth-child(odd) {background-color: #e5e5e5}
+
+.gridView tr:nth-child(even) td {background-color: #F3F3F3}
+.gridView tr:nth-child(odd) td {background-color: #e5e5e5}
+.gridheader1{background: url(../images/BoxTypeGrdntBgImg.png) repeat-x; height:30px;}
+
+
+
+/*----grid Header---
+
+.GridHeader
+{
+font-weight: bold;
+background-color: red;background:#F6F6F6 url(images/ui-bg_glass_100_f6f6f6_1x400.png) 50% 50% repeat-x;
+}
+*/
+.lblCartMsgcontent {
+font-family: "Helvetica",Arial, Helvetica, sans-serif;
+font-size: 36px;
+font-weight: normal;
+color: 
+white;
+width: 100%;
+margin: 0 auto;
+padding: 0 0 0px 40px;
+margin: 0 auto;
+}
+
+.lblCartMsg 
+{
+background: url(../images/MenuBgImg.png) repeat;
+height: 50px;
+margin: 15px 0 20px 125px;
+width: 80%;
+}
+
+/*------Alert Grid------*/
+innerpage_content {
+width: auto;
+height: auto;
+border: 1px solid 
+#339EC8;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+margin: 30px 0 0 0;
+color: 
+#5C5C5C;
+text-align: justify;
+padding: 10px;
+font: 15px Arial, Helvetica, sans-serif;
+}
+
+
+.error_banner {
+width: 618px;
+height: 21px;
+border: 1px solid 
+#F47700;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+margin: 27px 0px 0px 5px;
+background-color: 
+#FFF2D5;
+padding: 6px;
+}
+
+
+.right_icon_content {
+float: left;
+width: 575px;
+color: 
+#3A3A3A;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+padding: 0 0 0 8px;
+font-weight: bold;
+margin: 4px 0px 0px 0px;
+}
+
+
+
+.divtabcategoriesblock{background:url(../images/BoxTypeGrdntBgImg.png) repeat-x; padding:10px 30px 0px 5px; font:normal 14px arial; color:white; text-decoration:none;}
+.divtabcategoriesblock ul.divtabs{ margin:4px; padding:3px,opx; margin-left:0; font:14px Arial, Helvetica, sans-serif;list-style-type: none;text-align: left;}
+.divtabcategoriesblock ul.divtabs li.divtab{ display: inline;margin: 0;}
+
+.divtabcontainer{clear:both; float:left; width:100%; background:white; border:solid 1px #828282;}
+
+
+.divtabs{ color: white;
+    display: inline;
+    float: left;
+    font: bold 14px Arial,Helvetica,sans-serif;
+    list-style-type: none;
+    margin: 2px 0 0;
+    outline: medium none;
+    padding: 0 20px;
+    text-align: left;
+    text-decoration: none;
+    width: auto; text-transform: uppercase;
+
+}
+a.divtabs:hover {color:#3194b6 !important;}
+
+.divtabs li a:hover, .divtabs li a.current 
+{
+background-color: Red;
+color: white;
+border-radius: 3px;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+}
+
+
+
+/*--------GridView Latest Color Changes-------*/
+
+/*
+
+.gridView {font-size:15px;border:1px solid #339EC8;
+}
+
+.gridView tr:nth-child(even) {background-color: #CCF1FF}
+.gridView tr:nth-child(odd) {background-color: #EAF9FF}
+
+.gridView tr:nth-child(even) td {background-color: #CCF1FF}
+.gridView tr:nth-child(odd) td {background-color: #EAF9FF}
+.gridView gridheader{font-weight: bold;background:#F6F6F6 url(images/ui-bg_glass_100_f6f6f6_1x400.png) 50% 50% repeat-x;}
+*/
+
+
+
+#Imgbtnsignin{background:url(../images/SignInBg.png) repeat-x; height:32px; -moz-border-radius:4px; -webkit-border-radius:4px;  border-radius:7px; float:left; padding:0px 15px; font:bold 13px/30px arial; color:#fff; margin:7px 0px; text-decoration:none; width:99px;}
+
+#Imgbtnsignin:hover {background:url(../images/SignInBgHover.png) repeat-x;}
+
+
+.lblBrandErrormsg 
+{
+  
+background: url(../Images/error_sym.png) no-repeat left center #FFCECE;
+height: 20px;
+width: 850px;
+height: auto;
+border: 1px solid #F47700;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+margin: 0 auto;
+background-color:#FFF2D5;
+padding: 15px 20px 2px 40px;
+border-radius: 7px;
+}
+
+
+
+
+
+/*newCssMadhu*/
+
+
+.ContentCtnr .rightCol {width:690px; float:left; padding:0px 15px 10px 7px; margin: -4px 0px 0px 0px;margin-left: -4px;}
+.rightCol .CallingCardSrchBlock {width:100%; pading:0px; margin:0px; background:url(../images/CallingCardSrchBlockBg.png) repeat-x; height:50px; -moz-border-radius:6px; -border-border-radius:6px; border-radius:6px; border:solid 1px #aeaeae; -moz-box-shadow:3px 3px 3px -1px #d1d1d1; -webkit-box-shadow: 3px 3px 3px -1px #d1d1d1; box-shadow:3px 3px 3px -1px #d1d1d1; }
+.CallingCardSrchBlock label.BlockTitle {font:normal 15px "Trebuchet MS", Arial, Helvetica, sans-serif; float:left; margin:14px 10px 0 15px; padding:0px; }
+.CallingCardSrchBlock select.CntrySlctnBox {border:solid 1px #8a8a8a; padding:7px 10px 7px; width:28%; background:url(../images/SelectionBoxBgImg.png) repeat-x; margin:8px 6px; float:left;}
+.CallingCardSrchBlock input.BtnStyle[type="button"]{background:url(../images/BtnBgImg.png) repeat-x; margin:0px; padding:0px 15px; height:32px; font:bold 14px/30px arial; color:#222; float:left; border:solid 1px #005779; margin:8px 0 0 10px; cursor:pointer;}
+.CallingCardSrchBlock input.BtnStyle[type="button"]:hover{background:url(../images/BtnBgImgHover.png) repeat-x;}
+
+.rightCol .BannerSlider { float:left; width:690px; margin:14px 0px 0px 0px;}
+.rightCol .AbtInfo {width:690px; margin:15px 0px 0px 0px ; float:left;}
+.rightCol .AbtInfo h2 {margin:0px; padding:0px; font:normal 18px Arial, Helvetica, sans-serif; color:#da0e03;}
+.rightCol .AbtInfo p.TxtInfo {font:normal 14px/25px tahoma; color:#222; margin:0px; padding:0px; float:left; width:100%;}
+
+.rightCol .TabberBox {float:left; width:100%; border:solid 1px #d6d6d6; -moz-border-radius:6px; -webkit-border-radius:6px; border-radius:6px;}
+
+.FooterBlock {width:100%; margin:0px auto; padding:10px 0px; float:left; border-top:#a3a3a3 solid 1px;}
+.FooterBlock p.FooterLinks {width:1010px; margin:0px auto; padding:10px 0px;}
+.FooterBlock p.FooterLinks a.FtrLink {font:normal 12px arial; color:#222; margin:0px 10px; text-decoration:none; float:left;}
+.FooterBlock p.FooterLinks a.FtrLink:hover {text-decoration:underline;}
+.FooterBlock p.FooterLinks label.copyrights {font:normal 12px arial; float:left; margin:10px 0px 0px 10px; clear:both;}
+.FooterBlock p.FooterLinks .FollowUs {float:right; margin:0px 0px 0px 0px; display:none;}
+.FooterBlock p.FooterLinks .FollowUs label {font:normal 14px arial; color:#222; float:left;}
+.FooterBlock p.FooterLinks .FollowUs a.Follow{float:left; margin:0px 8px; padding:0px; }
+.FooterBlock p.FooterLinks .FollowUs a.Follow img {border:none;}
+
+          
+.Register{background:url(../images/RegisterNowBg.png) repeat-x; height:32px; -moz-border-radius:4px; -webkit-border-radius:4px;  border-radius:4px; float:left; padding:0px 15px; font:bold 12px/27px arial; color:#fff;margin: 7px 4px 0px 0px; text-decoration:none;}
+.Register:hover {background:url(../images/RegisterNowBgHover.png) repeat-x;}         
+          
+          
+   .HeaderCtnr .HeaderInfoBox {
+float: right;
+margin: 15px 0px 0px 0px;
+padding: 0px;
+width: 580px;}
+.HeaderInfoBox .HaveAccount {
+float: right;
+width: 100%;
+margin: 0px 0px 0px 0px;}
+.HaveAccount .HaveAccountBox {
+float: right;
+background: url(../images/HaveAnAccountBgImg.png) repeat-x;
+height: 35px;
+width: auto;
+-moz-border-radius: 0 0 8px 8px;
+-webkit-border-radius: 0 0 8px 8px;
+border-radius: 0 0 8px 8px;
+}
+.HaveAccount .shoppingCartBox {
+float: left;
+background: url(../images/ShoppingCartIcon.png) no-repeat 2px 7px;
+font: bold 12px arial;
+color: 
+#545758;
+padding: 9px 0px 14px 27px;
+margin: 0px 0px 0px 5px;
+}
+
+.HaveAccountBox label.HavAccountTxt {
+font: bold 12px arial;
+color: 
+black;
+float: left;
+margin: 10px 0 14px 10px;
+}
+
+.HaveAccountBox a.SignIn {
+background: url(../images/SignInBg.png) repeat-x;
+height: 27px;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px;
+float: left;
+padding: 0px 15px;
+font: bold 12px/27px arial;
+color: 
+white;
+margin: 4px 4px;
+text-decoration: none;
+}
+.HaveAccountBox a.Register {
+background: url(../images/RegisterNowBg.png) repeat-x;
+height: 25px;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px;
+float: left;
+padding: 0px 4px 0px 7px;
+font: bold 12px/27px arial;
+color: 
+white;
+margin: 5px 4px;
+text-decoration: none;
+}
+.HeaderInfoBox .supportInfo {
+float: right; position:relative;
+}
+
+.Register {
+background: url(../images/RegisterNowBg.png) repeat-x;
+height: 27px;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px;
+float: left;
+padding: 0px 15px;
+font: bold 12px/27px arial;
+color: 
+white;
+margin: 3.5px 0px 0px 0px;
+text-decoration: none;
+}
+          
+  .HeaderCtnr .HeaderInfoBox {
+float: right;
+margin: 0px 0px 0px 0px;
+padding: 0px;
+width: 580px;
+}        
+
+
+.HeaderInfoBox .supportInfo label {
+font: normal 13px Arial, Helvetica, sans-serif;
+color: 
+#222;
+float: left;
+margin: 8px 0px 0px 0px;
+}
+
+
+
+
+
+
+/*Brand Index Styles*/
+.rightCol1
+{
+width: 690px;
+float: left;
+padding: 10px 15px 10px 7px;}
+.rightCol1 .brandIndex {float:left; width:98%; border:solid 1px #bdbdbd; margin:0px 0px 5px 0px;}
+.rightCol1 h2.Title {font:normal 20px arial; color:#db150d; margin:0px; padding:10px 0px;}
+.brandIndex label {float:left; padding:5px 10px; font:normal 14px arial; color:#fff; background-color:#4d535f;}
+.brandIndex a.Alphabets {float:left; margin:0px 10px 0px 0px; padding:5px 0px 0px 3px; font:bold 13px arial; color:#222; text-decoration:none;}
+.brandIndex a.Alphabets:hover {color:#e21d13;}
+
+/*PagingIndex*/
+.PagingIndex {float:left; font:normal 13px Arial, Helvetica, sans-serif; color:#161515; text-decoration:none; border-right:solid 1px #7e7e7e; padding:0px 15px;}
+.PagingIndex:hover {color:#24d5ff;}
+
+
+.SignOut{background:url(../images/SignInBg.png) repeat-x; height:25px; -moz-border-radius:4px; -webkit-border-radius:4px;  border-radius:6px; font:bold 12px/27px arial; color:#fff; text-decoration:none; width: 70px; border:none; cursor:pointer;
+float: left; padding: 0px 4px 0px 7px; margin:5px 5px 2px 0px !important; }
+.SignOut:hover {background:url(../images/SignInBgHover.png) repeat-x;}
+
+
+.ContentCtnr .CenterCol {width:980px; float:left; padding:10px 15px 10px 13px;height:95%}
+.CenterCol .CenterBox {
+width: 100%;
+-moz-border-radius: 6px;
+-webkit-border-radius: 6px;
+border-radius: 6px;
+float: left;
+margin: 400px 716px 5px 4px;
+}
+
+.SignOutHome{background:url(../images/SignInBg.png) repeat-x; height:34px;border-color:Red;  font:bold 12px/27px arial; color:#fff; text-decoration:none; width: 70px;
+float: left; padding: 0px 4px 0px 7px; margin:42px 26px 2px -15px; }
+.SignOutHome:hover {background:url(../images/SignInBgHover.png) repeat-x;}
+
+.SignIn {
+background: url(../images/SignInBgHover.png) repeat-x; 
+height: 27px;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px;
+float: left;
+padding: 0px 15px;
+font: bold 12px/27px arial;
+color: 
+white;
+margin: 4px 4px;
+text-decoration: none; border:none; cursor:pointer;
+}
+.SignIn:hover {background:url(../images/SignInBg.png) repeat-x;}
+
+.HeaderInfoBox .supportInfo a {font:bold 14px arial; color:#217d9d !Important; text-decoration:none; float:left; margin:0px 10px; border-right:solid 1px #fff; padding:6px 10px;}
+.HeaderInfoBox .supportInfo a:hover {color:#222 !important; text-decoration:underline;}
+
+
+.LiveChatWindowCtnr {margin:0px auto; }
+.LiveChatWindowCtnr .ChatWindow {   left: 0 !important;
+    margin: 0 auto !important;
+    padding: 20px;
+    position: absolute;
+    right: 0 !important;
+    width: 700px;
+    z-index: 9999; background:none !Important;}
+	
+.LiveChatWindowCtnr .ChatWindow .WindowCtnr {padding:12px 10px 10px !important; margin:85px 0px 0px 0px !important;}
+
+.LiveChatWindowCtnr .ChatWindow #divLiveChat {width:100% !important; display:block;}
+.LiveChatWindowCtnr .ChatWindow #divLiveChat .FieldsCtnr {width:100% !important; display:block;}
+.LiveChatWindowCtnr .ChatWindow #divLiveChat a.close { right: -15px !important; top: 108px !important;}
+.LiveChatWindowCtnr .ChatWindow #divLiveChat .FieldsCtnr ul.RgstrnForm {width:100%;}
+.LiveChatWindowCtnr .ChatWindow #divLiveChat .FieldsCtnr ul.RgstrnForm li {width:100% !important; float:left;}
+.LiveChatWindowCtnr .ChatWindow #divLiveChat .FieldsCtnr ul.RgstrnForm li label.fieldLabel {width:20% !important; float:left;}
+.LiveChatWindowCtnr .ChatWindow #divLiveChat .FieldsCtnr ul.RgstrnForm li input[type="text"] {width:70% !important;}
+.LiveChatWindowCtnr .ChatWindow #divLiveChat .FieldsCtnr ul.RgstrnForm li textarea {width:70% !important;}
+.LiveChatWindowCtnr .ChatWindow #divLiveChat .FieldsCtnr ul.RgstrnForm li.FooterFields {background:none !Important;}
+.LiveChatWindowCtnr .ChatWindow #divLiveChat .FieldsCtnr ul.RgstrnForm li.FooterFields p.SbmtOrCncl {width:auto !Important; margin:0 0 5px 125px;}
+.LiveChatWindowCtnr .ChatWindow #divLiveChat .FieldsCtnr label.FillFieldsTitle {border-bottom:2px solid #2A7690;  float: left; margin: 10px 0 0 25px !important; padding: 0 0 10px; width: 92% !important; }
+
+
+table#VoucherGridView {float:left;}
+span#lblHeaderMsg {text-align:left; float:left;}
+#divCategory table {float:left; width:100%;}
+.FullWidthCtnr table.InvoiceBox {float:left;}
+
+.HeaderWrapper .HeaderCtnr #boxes .Loginwindow { display: block;
+    left: 0 !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
+    right: 0 !important;
+    top: 64px !important;}
+
+.HeaderWrapper .HeaderCtnr .Loginwindow a.close {   margin: 0px !important;
+    right: -27px !important;
+    top: -8px !important;
+}
+
+iframe#Recommendedfriendsfrm1 {min-height:535px; max-height:900px !important;  overflow-x:hidden; border:none; margin:0px; padding:0px; }
+input#btngmailpopup{border:none; border-radius:4px; -webkit-border-radius:4px;}
+.TabularCtnr {background-color: rgba(232, 247, 252, 0.72); border:solid 2px #c9ecf9; padding:10px;}
+#divRecommendedfriends .CenterCol {width:98% !Important; margin:0px 10px !important; padding:10px 0px 0 0px;}
+/*#InviteGmailFrnds {padding:10px 10px 420px 10px !important;background-color: #e8f7fc;}*/
+#InviteGmailFrnds {padding:60px 10px 259px 10px !important;background-color: #e8f7fc;}
+#divRecommendedfriends {background-color:#fff; float:left; margin:0px;}
+
+
+#divTermsandConditions {background-color:#fff; display: block; float: left;  height: 650px; margin:0px auto;}
+iframe#TermsandConditionsfrm1 {width:99.5% !important; margin:5px 6px !important; overflow-x:hidden; border:none;}
+
+#divFAQ {background-color:#fff; display: block; float: left;  height: 650px; margin:0px auto; }
+iframe#FAQfrm1 {width:99.5% !important; margin:0px !important; overflow-x:hidden; border:none;}
+
+
+#divaboutus {background-color:#fff; display: block; float: left;  height:450px !important; margin:0px !important}
+iframe#aboutfrm1 {width:99.5% !important; margin:0px 8px !important; overflow-x:hidden; border:none;}
+
+#FAqid span h4 {margin:10px 0px 0px 0px !important;}
+#divFAQ .CenterCol {height:690px !important;}
+
+
+
+#divcontactus {background-color:#fff; margin:0px !important; display: block; float: left;  height: 643px; width:990px; padding:0px 10px; }
+iframe#Contactusfrm1 {width:99.5% !important; margin:0px !important; overflow-x:hidden; border:none;}
+
+
+#divsitemap {background-color:#fff; margin:0px !important;  display: block; float: left;  height: 650px; width:990px; padding:0px 10px; }
+iframe#Sitemapfrm1 {width:99.5% !important; margin:0px !important; overflow-x:hidden; border:none;}
+iframe#Sitemapfrm1 html,body {background-color:#fff !important; background-image:none !important;}
+
+
+#divMyAccount {height:650px;}
+#divMyAccount iframe.CenterBox {border:none !important;}
+
+.AccountSettingsCtnr {width:940px !important;}
+#divSelectCntryBlock {width:96.5% !important;}
+#divAboutBlock {width:96.7% !important;}
+
+
+#Terms_ConditionsCtnr span h4 {margin:10px 0px 0px 0px !important;}
+
+iframe#Sitemapfrm1 {height:630px !Important;}
+
+#divLiveChat .FieldsCtnr ul.RgstrnForm li {margin-bottom:15px;}
+
+
+#JqpopupRegister {margin:0px auto; left:0px; right:0px; padding:0px; position:absolute;}
+#JqpopupRegister .WindowCtnr {margin:0px !important; padding:0px; width:100%; position:relative;}
+#JqpopupRegister .WindowCtnr ul.RgstrnForm li.TitleHolder h4 {margin:15px 0px 0px 0px; padding:0px; font:bold 15px arial; color:Red; text-align:center; width:100%;}
+#JqpopupRegister .WindowCtnr a.close {position:absolute; right:-19px; top:5px;}   
+#JqpopupRegister .WindowCtnr ul.RgstrnForm li.TitleHolder p {margin:15px 0 0 50px; padding:0px; font:normal 12px arial; color:#222; line-height:19px; width:100%; text-align:left;}
+
+
+
+tr.CheckTR {width:100%; float:none; position:static;}
+tr.CheckTR td.LocalMinutes {width:125px; margin:0px 0px 0px 0px; position:relative; top:5px; float:left; left:25px;}
+tr.CheckTR td.LocalMinutes span {margin:0px !Important;}
+tr.CheckTR td.LocalMinutes span input[type="checkbox"]{margin:0px !Important; left:0px; }
+
+
+tr.CheckTR td.TollFreeMinutes {width:135px; margin:0px 0px 0px 20px; position:relative; left:12px; top:5px;}
+tr.CheckTR td.TollFreeMinutes span {margin:0px !Important;}
+tr.CheckTR td.TollFreeMinutes span input[type="checkbox"]{margin:0px !Important; left:0px;}
+
+tr.CheckTR td.SubmitBtnCtnr {width:100px; margin:0px 0px 0px 20px; position:relative; top:5px;}
+tr.CheckTR td.SubmitBtnCtnr span {margin:0px !Important;}
+tr.CheckTR td.SubmitBtnCtnr #btnProductMintsSearch{margin:0px !Important; left:0px;}
+
+#boxespopup .popresetpasswordWindow {
+  position:absolute;
+  width:600px;
+  padding:12px 10px 10px;
+  display:none;
+  z-index:9999;
+  padding:20px; background:url(../images/LoginArrw.png) no-repeat 195px 9px; 
+  margin: 38px 0px 0px 381px !important;
+background-image: none;
+}
+
+.WindowCtnr a.closepopresetpassword {background:url(../images/closeicon.png) no-repeat; width:35px; height:35px; position:absolute; top:20px; right:5px; margin: 0px;}

@@ -1,0 +1,167 @@
+/*REGISTER FORM STYLES------------------------------------------------*/
+ul.RgstrnForm {margin:0px; padding:0px; float:left; width:100%; }
+ul.RgstrnForm li {float:left; list-style:none; width:47%; margin:0px 20px 20px 0px; }
+ul.RgstrnForm li.TitleHolder {width:100%; list-style:none; margin:0px 15px 0px 0px; }
+ul.RgstrnForm li.TitleHolder h2.Title {font:bold 15px arial; color:#c10000; width:100%; float:left;}
+ul.RgstrnForm li label.fieldLabel {font:normal 12px arial; color:#222; width:100%;}
+ul.RgstrnForm li input.inputField {font:nomral 14px arial; color:#666; width:90%; padding:8px 10px; border:solid 1px #c2c6ce; float:left;}
+ul.RgstrnForm li select.CountryFiled, select.AboutUs {font:nomral 14px arial; color:#666; width:96%; padding:8px 10px; border:solid 1px #c2c6ce; float:left;}
+
+ul.RgstrnForm li.TextArea textarea.textField {font:nomral 14px arial; color:#666; width:90%; padding:10px; border:solid 1px #c2c6ce; float:left; resize:none; height:85px;}
+ul.RgstrnForm li.FooterFields{font:normal 13px verdana; color:#4b515d; width:95%; background-color:#edf0f3; border:solid 1px #bec1c8; padding:10px;}
+ul.RgstrnForm li.FooterFields p.MailOffer{font:normal 12px arial; color:#4b515d; width:25%; float:left; margin:0px; padding:0px;}
+ul.RgstrnForm li.FooterFields p.AcceptTC{font:normal 12px arial; color:#4b515d; width:55%; float:left; margin:0px; padding:0px;}
+ul.RgstrnForm li.FooterFields p.AcceptTC a {font:normal 12px arial; color:#ef2d1d; text-decoration:none;}
+ul.RgstrnForm li.FooterFields p.AcceptTC a:hover {text-decoration:underline;}
+
+ul.RgstrnForm li.FooterFields p.SbmtOrCncl {width:100%; margin:15px 0px 5px 0px; padding::0px; float:left;} 
+ul.RgstrnForm li.FooterFields p.SbmtOrCncl input.Submit[type="button"] {font:bold 13px arial; background:url(../images/LoginBtn.png) repeat-x; padding:5px 12px; color:#fff; margin:0px; border:none; -moz-border-radius:4px; -webkit-border-radius:4px; border-radius:4px; cursor:pointer; margin:0px 15px 0px 0px; border:solid 1px #8f0000;}
+
+ul.RgstrnForm li.FooterFields p.SbmtOrCncl input.Cancel[type="button"] {font:bold 13px arial; background:url(../images/CancelBtn.png) repeat-x; padding:5px 12px; color:#fff; margin:0px; border:none; -moz-border-radius:4px; -webkit-border-radius:4px; border-radius:4px; cursor:pointer; border:solid 1px #92969e; color:#707378;}
+
+/*Brand Index Styles*/
+.rightCol .brandIndex {float:left; width:98%; border:solid 1px #bdbdbd; margin:0px 0px 5px 0px;}
+.rightCol h2.Title {font:normal 20px arial; color:#db150d; margin:0px; padding:10px 0px;}
+.brandIndex label {float:left; padding:5px 10px; font:normal 14px arial; color:#fff; background-color:#4d535f;}
+.brandIndex a.Alphabets {float:left; margin:0px 10px 0px 0px; padding:5px 0px 0px 3px; font:bold 13px arial; color:#222; text-decoration:none;}
+.brandIndex a.Alphabets:hover {color:#e21d13;}
+
+
+/*Order Review Page Styles*/
+.FullWidthCtnr {width:100%; float:left; background-color:#fff;}
+ul.InvoiceHdrTabs {width:90%; margin:10px 50px; padding:0px; float:left; border:solid 1px #B2B5BE; background-color:#fff;height: auto; }
+ul.InvoiceHdrTabs li{margin:0px; padding:10px 0px 10px 10px; float:left; list-style:none; float:left; position:relative;}
+ul.InvoiceHdrTabs li a.TabStyle{margin:0px; padding:0 20px 0 15px !important; float:left; color:#d0d0d0; list-style:none; float:left; font:bold 15px arial; float:left;}
+
+ul.InvoiceHdrTabs li a.OrderRvw{margin:0px; padding:0 20px 0 15px !important; float:left; color:#d0d0d0; list-style:none; float:left; font:bold 15px arial; float:left;}
+ul.InvoiceHdrTabs li a.PaymentMode{margin:0px; padding:0 20px 0 15px !important; float:left; color:#d0d0d0; list-style:none; float:left; font:bold 15px arial; float:left;}
+
+.OrderRvw{margin:0px; padding:0 20px 0 15px !important; float:left; color:#d0d0d0; list-style:none; float:left; font:bold 15px arial; float:left;}
+.PaymentMode{margin:0px; padding:0 20px 0 15px !important; float:left; color:#d0d0d0; list-style:none; float:left; font:bold 15px arial; float:left;}
+
+
+ul.InvoiceHdrTabs li label {color:#d1d1d1; float: left; font: bold 22px arial; left: 8px; position: absolute; top: 5px;}
+ul.InvoiceHdrTabs li.Active {background-color:#383e48; font:bold 15px arial; color:#fff; }
+ul.InvoiceHdrTabs li.Active label {color: #F73826; float: left; font: bold 22px arial; left: 8px; position: absolute; top: 5px;}
+
+ul.InvoiceHdrTabs li.Active a.OrderRvw{margin:0px; padding:0px 25px 0px 0px; float:left; list-style:none; float:left; font:bold 15px arial; background:url(../images/InvoiceTabberArw.png) no-repeat 124px center; color:#fff;}
+ul.InvoiceHdrTabs li.Active a.PaymentMode{margin:0px; padding:0px 25px 0px 0px; float:left; list-style:none; float:left; font:bold 15px arial; background:url(../images/InvoiceTabberArw.png) no-repeat 130px center; color:#fff;}
+
+
+.OrderRvw{margin:0px; padding:0px 25px 0px 0px; float:left; list-style:none; float:left; font:bold 15px arial;border-width: 0px; background:url(../images/InvoiceTabberArw.png) no-repeat 124px center;}
+.PaymentMode{margin:0px; padding:0px 25px 0px 0px; float:left; list-style:none; float:left; font:bold 15px arial;border-width: 0px; background:url(../images/InvoiceTabberArw.png) no-repeat 130px center;}
+
+
+
+.FullWidthCtnr table.InvoiceBox {width:100%; float:left; }
+
+
+.FullWidthCtnr table.InvoiceBox {width:90%; margin:15px 50px; border:solid 1px #b2b5be;border-collapse:separate !important;}
+table.InvoiceBox tbody {margin:0px; padding:0px;}
+
+table.InvoiceBox tbody tr th {height:35px;  font:bold 14px/30px arial; color:#50545b; border-bottom:solid 1px #c4c4c4;}
+table.InvoiceBox tbody tr th.Name {width:70%; text-align:left; padding:0px 0px 0px 12px;}
+table.InvoiceBox tbody tr th.Price {width:13%; text-align:left; padding:0px 0px 0px 12px;}
+table.InvoiceBox tbody tr th.Qnty {width:13%; text-align:left; padding:0px 0px 0px 12px;}
+
+table.InvoiceBox tbody tr td.Name {width:70%; font:normal 12px arial; color:#222;  text-align:left; padding:15px 0px 15px 12px;}
+table.InvoiceBox tbody tr td.Price {width:13%; font:normal 12px arial; color:#222;  text-align:left; padding:15px 0px 15px 12px;}
+table.InvoiceBox tbody tr td.Qnty {width:13%; font:normal 12px arial; color:#222;  text-align:center; padding:15px 40px 15px 12px;}
+
+
+
+
+table.InvoiceBox tbody tr.SubtotalRow {background-color:#ececec; border-top:solid 1px #000;}
+table.InvoiceBox tbody tr.SubtotalRow td p.AmntPay {color: #2A7690; float: left; font: bold 15px arial; margin: 0 15px 0 -168px; padding: 8px 0 0px 12px;}
+table.InvoiceBox tbody tr.SubtotalRow td p.SubTotal {color: #2A7690; float:right; font: bold 16px arial; margin: 0px 0px 0px -39px; padding:6px 5px; }
+
+
+
+
+
+.FullWidthCtnr input.ProceedToPay[type="button"] {background:url(../images/RegisterNowBg.png) repeat-x; padding:5px 15px; font:bold 15px arial; color:#c3c9d4; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; border:none !important; margin:15px 50px 12px 0px; float:right; cursor:pointer;}
+.FullWidthCtnr input.ProceedToPay[type="button"]:hover {background:url(../images/RegisterNowBg.png) repeat-x; color:#fff;}
+
+.ProceedToPay{background:url(../images/RegisterNowBg.png) repeat-x; padding:5px 15px; font:bold 15px arial; color:#c3c9d4; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; border:none !important; margin:15px 50px 12px 0px; float:right; cursor:pointer;}
+.ProceedToPay:hover {background:url(../images/RegisterNowBg.png) repeat-x; color:#fff;}
+
+
+/*Order Review Page Styles Ends*/
+
+/*PaymentMode Page Styles*/
+.FullWidthCtnr .PaymentModeCtnr {width:58%; margin:0px 15px 15px 50px; border:solid 1px #b2b5be; float:left;}
+.PaymentModeCtnr ul.tabs {width:100%; margin:0px; padding:0px; background:url(../images/HaveAnAccountBgImg.png) repeat-x; border-bottom:solid 1px #B2B5BE; }
+.PaymentModeCtnr ul.tabs li {list-style:none; float:left; padding:0px 15px;}
+.PaymentModeCtnr ul.tabs li a.MenuLinks {font:normal 14px arial; color:#383e48; }
+.PaymentModeCtnr ul.tabs li.active {color:#d61200; font:bold 15px arial; border:solid 1px #B2B5BE; border-bottom:none;}
+.PaymentModeCtnr ul.tabs li.active a.MenuLinks {color:#2A7690 !important; font:bold 15px arial;}
+.PaymentModeCtnr .SlctBanksCtnr {float:left; padding:10px;}
+.SlctBanksCtnr label.LabelInfo { font:bold 14px tahoma; color:#595959; float:left; width:100%; padding:10px 10px;}
+
+.LabelInfo { font:bold 14px tahoma; color:#595959; float:left; width:100%; padding:10px 10px;margin-left: 40px;}
+
+.SlctBanksCtnr ul.ListOfBanks {width:33%; margin:0px; padding:0px; float:left;}
+.SlctBanksCtnr ul.ListOfBanks li {list-style:none; float:left; margin:5px 10px;}
+.SlctBanksCtnr ul.ListOfBanks li input[type="radio"]{margin:0px 5px 0px 0px; padding:0px; float:left;}
+.SlctBanksCtnr ul.ListOfBanks li label.bankName{margin:0px; padding:0px; float:left; font:normal 12px arial;}
+
+
+.FullWidthCtnr .OrderSummary { width:30%; float:left; border:solid 1px #b2b5be; margin:15px 0px;}
+.FullWidthCtnr .OrderSummary h2.OrderSmry {font:bold 15px arial; padding:11px 0px 11px 15px; margin:0px; color:#222; background:url(../images/HaveAnAccountBgImg.png) repeat-x;}
+.OrderSummary table.OrderSmryBox {width:100%; margin:15px 50px; border-top:solid 1px #b2b5be; margin:0px; padding:0px;}
+.OrderSummary table.OrderSmryBox tbody tr td.InfoCol {width:55%; font:bold 12px arial; color:#757677; float:left; text-align:left; padding:10px 0px 10px 12px;}
+.OrderSummary table.OrderSmryBox tbody tr td.PriceCol {width:30%; font:bold 12px arial; color:#2A7690; float:left; text-align:right; padding:10px 0px 10px 12px;}
+
+
+
+/*Transaction Page styles*/
+.FullWidthCtnrTsucess{width:100%; float:left; background-color:#fff; margin:0px 40px;}
+h2.TransactSucsMsg {margin:10px 24px; padding:0px; font:normal 22px arial; color:#cd0302;}
+h2.TransactSucsMsg label {font:normal 15px tahoma; color:#666; margin:0px 0px 0px 10px;}
+
+.TransactionDetailsBox {width:95%; float:left; margin:10px 24px; border:solid 1px #383e48;}
+.TransactionDetailsBox h2.Title {margin:0px; padding:0px 10px; height:28px; background-color:#383e48; font:bold 16px/28px arial; color:#fff; float:left; width:98%;}
+
+#divTransactionDetailsBox .TransactionDetailsBox h2.Title {margin:0px; padding:0px !important; height:28px; background-color:#383e48; font:bold 16px/28px arial; color:#fff; float:left; width:100%;}
+
+
+
+.TransactionDetailsBox table.TransactionDtlsTable {width:100%; float:left; margin:0px; padding:0px;}
+.TransactionDetailsBox table.TransactionDtlsTable tbody {width:100%;}
+.TransactionDetailsBox table.TransactionDtlsTable tbody tr:nth-child(even){width:100%;  float:left; border-bottom:solid 1px #9fb3bd; background-color:#e2e5ed;}
+.TransactionDetailsBox table.TransactionDtlsTable tbody tr:nth-child(odd){width:100%;  float:left; border-bottom:solid 1px #9fb3bd; background-color:#fff;}
+.TransactionDetailsBox table.TransactionDtlsTable tbody tr td {width:48%; padding:10px 0px 10px 10px; float:left; font:bold 14px arial; color:#222; border-right:solid 1px #9fb3bd}
+.TransactionDetailsBox table.TransactionDtlsTable tbody tr td:last-child {border:none;}
+.TransactionDetailsBox table.TransactionDtlsTable tbody tr:last-child {border:none;}
+.TransactionDetailsBox table.TransactionDtlsGrid { float:left; margin:0px; padding:0px;}
+.TransactionDetailsBox table.TransactionDtlsGrid tbody {width:100%;}
+.TransactionDetailsBox table.TransactionDtlsGrid tbody tr:nth-child(even){  float:left; border-bottom:solid 1px #9fb3bd; background-color:#e2e5ed;}
+.TransactionDetailsBox table.TransactionDtlsGrid tbody tr:nth-child(odd){ float:left; border-bottom:solid 1px #9fb3bd; background-color:#fff;}
+.TransactionDetailsBox table.TransactionDtlsGrid tbody tr td { padding:10px 0px 10px 10px; float:left; font:bold 14px arial; color:#222; border-right:solid 1px #9fb3bd}
+.TransactionDetailsBox table.TransactionDtlsGrid tbody tr td:last-child {border:none;}
+.TransactionDetailsBox table.TransactionDtlsGrid tbody tr:last-child {border:none;}
+h2.SelectPin {font:normal 18px arial; color:#2b303a; margin:0px 20px;}
+ul.PinBox {width:98%; margin:0px; padding:15px; float:left;}
+ul.PinBox li {float:left; list-style:none; font:normal 13px arial; color:#222; margin:0px 30px 10px 0px;}
+ul.PinBox li input[type="checkbox"] {float:left; margin:0px; padding:0px;}
+ul.PinBox li label.operator{float:left; list-style:none; font:bold 13px arial; color:#cc0201; margin:0px 5px;}
+ul.PinBox li label.pin{float:left; list-style:none; font:normal 13px arial; color:#222;}
+
+.TransactionDtlsGridAltRow 
+{
+    border-bottom:solid 1px #9fb3bd;
+     background-color:#e2e5ed;
+     height:35px;
+     font:bold 14px arial;
+    
+}
+
+
+#PageCtnr #divContentCtnrTsucess {float:left;}
+.TransactionHdr {display:block;}
+.TransactionHdr ul.MenuCtnr {margin:34px auto 0px auto !important; padding:0px; border-bottom:solid 1px #96C1D0 !important; }
+.TransactionHdr ul#ulMenuCtnrs {border:none; margin:34px auto 0px auto !important; padding:0px; border-bottom:solid 1px #96C1D0 !important; }
+
+#PageCtnr #divContentCtnrTsucess #divTransactionDetailsBox {width:96% !important;}
+
+

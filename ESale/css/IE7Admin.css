@@ -1,0 +1,43 @@
+﻿#main-content #MainFrm {overflow-x:hidden !important;; overflow-y:auto !important;}
+#ctl00_ContentPlaceHolder1_pnladd {float:left; width:100%;}
+#ctl00_ContentPlaceHolder1_pnladd tr.d1 td.Col1 {float:left; width:auto !important;}
+#ctl00_ContentPlaceHolder1_pnladd tr.d1 td.Col2 {float:left; width:250px !important;}
+#ctl00_ContentPlaceHolder1_pnladd tr.d1 td.Col2 input.text-input {width:100% !important;} 
+#ctl00_ContentPlaceHolder1_pnladd tr.d1 td.Col3 {float:left; width:130px !important;}
+#ctl00_ContentPlaceHolder1_pnladd tr.d1 td.Col1 input.text-input {width:250px !Important;}
+#ctl00_ContentPlaceHolder1_pnladd tr.d1 td span {text-align:right; height:30px;}
+#ctl00_ContentPlaceHolder1_pnladd tr.d1 td.Col1 span.Label{float:right; width:auto !important; margin:0px; line-height:30px; height:30px; padding-bottom:20px;}
+#ctl00_ContentPlaceHolder1_pnladd tr.d1 td.Col3 span.Label{float:right; width:auto !important; margin:0px; line-height:30px; height:30px; padding-bottom:20px;}
+
+#ctl00_ContentPlaceHolder1_pnladd table {width:100% !important;}
+#ctl00_ContentPlaceHolder1_pnlsearch table tr td.CtgryTd {float:left !important;}
+#ctl00_ContentPlaceHolder1_pnlsearch table tr td.CtgryTd {width:75px !important;}
+td.CtgryTd {width:65px !important;}
+#txtRechargeType {width:60% !important;}
+form#aspnetForm {height:450px !important;}
+
+tr.pgr tr td {width:0px !important;}
+select.small-input {width:65% !important; padding:5px; border:solid:1px #ccc;}
+.BtnEmptyStyle {
+font: bold 13px arial;
+color: 
+#222;
+background: url(../Images/emptybtn.png) repeat-y;
+cursor: pointer;
+padding: 10px 0px;
+border: none;
+width: 99px; float:left !important; clear:none;
+}
+.Btnsctnr {padding:20px 0px 15px 180px; }
+.ShowPinsBtnsCtnr {padding:20px 0px 15px 130px; float:left;}
+
+.singlPinsGridCtnr table.GridViewStyle {margin-left:21% !important;}
+
+ul.SubmitButtons		{margin:12px 0px 0px 90px !important; padding:0px; width:75%; float:left; height:50px !important;}
+ul.SubmitButtons3		{margin:12px 0px 0px 150px !important; padding:0px; width:75%; float:left; height:50px !important;}
+
+
+.ajax__calendar_days table {width:100% !important; float:left;}
+.ajax__calendar_days table tr {width:100%; float:none !Important;}
+.ajax__calendar_days table tr td{width:auto; float:none !Important;}
+.ajax__calendar_days table tr th{width:auto; float:none !Important;}

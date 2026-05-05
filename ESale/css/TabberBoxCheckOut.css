@@ -1,0 +1,97 @@
+.container {width: 500px; margin: 10px auto;}
+.MenuCtnr {width:100%; float:left;background:url(../images/MenuBgImg.png) repeat-x; -moz-border-radius:6px 6px 0px 0px; -webkit-border-radius:6px 6px 0px 0px; border-radius:6px 6px 0px 0px; height:36px;}
+.MenuCtnr a.Home {background:url(../images/HomeIcon.png) no-repeat; width:54px; height:35px; float:left; -moz-border-radius:5px 0px 0px 0px; -webkit-border-radius:5px 0px 0px 0px; border-radius:5px 0px 0px 0px; margin:1px 0px 0px 1px;}
+
+
+ul.tabs {
+	margin:1px 0 0;
+	padding: 0;
+	float: left;
+	list-style: none;
+	height:41px;
+	width:94%;
+}
+ul.tabs li {
+	float: left;
+	margin: 0;
+	padding: 0;
+	height: 36px;
+	line-height: 31px;
+	margin-bottom: -1px;
+	overflow: hidden;
+	position: relative;
+	-moz-border-radius:6px 6px 0px 0px; -webkit-border-radius:6px 6px 0px 0px; border-radius:6px 6px 0px 0px;
+}
+
+ul.tabs li a {
+	text-decoration: none;
+	color: #fff;
+	display: block;
+	padding:9px 10px; margin:2px 0px 0px 0px;
+	outline: none; font:normal 13px tahoma;
+}
+ul.tabs li a:hover {color:#fff;}
+
+html ul.tabs li.active, html ul.tabs li.active {background: #fff; margin:5px 0px 0px 8px; color:#000;}
+.tab_container {
+	
+	clear: both;
+	float: left; 
+	width: 100%;
+   height: 360px;
+
+}
+li.active a {color:#000 !important; margin:0px !important;}
+.tab_content {
+	padding:5px;
+
+}
+.tab_content h2 {
+	font-weight: normal;
+	padding-bottom: 10px;
+
+	font-size: 1.8em;
+}
+.tab_content h3 a{
+	color: #254588;
+}
+.tab_content img {
+	float: left;
+	margin: 0 20px 20px 0;
+	border: 1px solid #ddd;
+	padding: 5px;
+}
+
+.tab_content ul.ItemsCtnr {float:left; width:100%; margin:0px; padding:0px;}
+.tab_content ul.ItemsCtnr li {width:215px; padding:10px;  background:url(../images/AddToCartBoxShdw.png) no-repeat center bottom; list-style:none; float:left; padding:10px 3px 23px 0px; margin:4px;}
+.tab_content ul.ItemsCtnr div.ItemBlock { background-color:#e1e8ea; list-style:none; -moz-box-shadow:0 0px 42px #bec7cb inset; float:left; width:100%;
+   -webkit-box-shadow:0 0px 42px #bec7cb inset;   box-shadow:0 0px 42px #bec7cb inset; height:300px; border:solid 1px #b3c1c7;}
+.tab_content ul.ItemsCtnr div.ItemBlock img {width:190px; height:130px;}
+.tab_content ul.ItemsCtnr div.ItemBlock img.ItemImg {float:left; margin:0px; padding:0px; border:none; margin:13px 13px 5px 13px;}
+.tab_content ul.ItemsCtnr div.ItemBlock .ItemInfo {float:left; width:92%; padding:5px 10px;}
+.tab_content ul.ItemsCtnr div.ItemBlock .ItemInfo label.ItemName {font:bold 14px Arial, Helvetica, sans-serif; color:#0096d3; float:left; width:100%;}
+.tab_content ul.ItemsCtnr div.ItemBlock .ItemInfo label.ItemPrice {font:normal 15px Arial, Helvetica, sans-serif; color:#222; float:left; width:100%; margin:5px 0px;}
+.tab_content ul.ItemsCtnr div.ItemBlock .ItemInfo label.ItemFinalPrice {font:bold 18px Arial, Helvetica, sans-serif; color:#fff; float:left; background-color:#000; padding:1px 3px;}
+.tab_content ul.ItemsCtnr div.ItemBlock .ItemInfo select.SelectItems {font:normal 12px arial; color:#222; padding:4px; float:right; border:solid 1px #b7c7cd;}
+.tab_content ul.ItemsCtnr div.ItemBlock .ItemInfo span.AddToCart{background:url(../images/AddToCartBtnBg.png) repeat-x; -moz-border-radius:4px; -border-border-radius:4px; border-radius:4px; padding:0px 10px; float:left; margin:12px 0px 0px 0px; }
+.tab_content ul.ItemsCtnr div.ItemBlock .ItemInfo span.AddToCart input.AddToCartBtn[type="button"] {background:url(../images/CartIconWhite.png) no-repeat left center; padding:5px 2px 5px 28px; font:normal 14px arial; color:#acafb5; border:none; cursor:pointer;}
+.tab_content ul.ItemsCtnr div.ItemBlock .ItemInfo span.AddToCart input.AddToCartBtn[type="button"]:hover {color:#fff;}
+   
+   
+   
+   
+.MenuCtnrs {width: 973px;margin: 26px 0px 0px 175px;float: left;background: url(../images/MenuBgImg.png) repeat-x;height: 38px;border-top: solid 1px #7E7E7E;} 
+.MenuCtnrs li.HomeLis{padding: 1px 0px 0px 0px;margin: -2px 0px 0px -38px;  } 
+.MenuCtnrs li a.Homes{background: url(../images/HomeIcon.png) no-repeat;width: 54px;height: 55px;float: left; }  
+
+
+ul.MenuCtnr li {list-style:none !Important;}
+
+#PageCtnr {width:1010px; margin:0px auto;}
+
+#PageCtnr #divContentCtnrTsucess {float:left;}
+.TransactionHdr {display:block;}
+.TransactionHdr ul.MenuCtnr {margin:34px auto 0px auto !important; padding:0px; }
+.TransactionHdr ul#ulMenuCtnrs {margin:34px auto 0px auto !important; padding:0px; width:1010px !Important;}
+.TransactionHdr ul#ulMenuCtnrs li.HomeLis {padding:0px !Important; margin:0px !Important;}
+

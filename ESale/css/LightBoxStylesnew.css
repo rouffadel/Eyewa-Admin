@@ -1,0 +1,221 @@
+
+
+
+
+
+
+/*madhu changes*/
+
+a {color:#333; text-decoration:none}
+a:hover {color:#ccc; text-decoration:none}
+
+#mask {
+  position:fixed;
+  left:0;
+  top:0;
+  z-index:9000;
+  background-color:#000;
+  display:none;
+}
+  
+  
+#boxes .Loginwindow {
+  position:absolute;
+  left:auto !important;
+  top:23px !important;
+  width:304px; right:-300px;
+  height:258px;
+  padding: 26px 436px 13px 16px;
+
+  display:none;
+  z-index:9999;
+   background:url(../images/LoginArrw.png) no-repeat 195px 9px; 
+}
+#boxes .MainPageLoginWindow {right:-2px !important;}
+#boxes .HomePageLoginWindow {right:-110px !important;}
+
+
+.Loginwindow .LoginWindowCtnr {width:100%; height:100%; padding:0px;}
+.LoginWindowCtnr .LoginBoxFields {border-radius: 4px 4px 4px 4px; background-color:#fff;
+float: left; height: 100%; margin: 0; padding: 0; width: 100%; -moz-box-shadow:-6px 6px 5px #3e3f3f;-webkit-box-shadow:-6px 6px 5px #3e3f3f;box-shadow:-6px 6px 5px #3e3f3f;
+-moz-border-radius:6px; -webkit-border-radius:6px; border-radius:6px; border:solid 3px #3F9FC0;}
+	
+.LoginBoxFields ul.LoginCriteria {width:95%; float:left; margin:0px; padding:15px;} 
+ul.LoginCriteria li{width:100%; float:left; margin:0px; padding:0px; list-style:none; width:100%;} 
+ul.LoginCriteria li h2.LoginTitle {font:bold 17px arial; color:#2A7690; margin:0px 0px 10px 0px; padding:0px; float:left;}
+ul.LoginCriteria li.inputbox {background:url(../images/LoginTxtBox.png) no-repeat; width:276px; height:40px; margin:0px 0px 15px 0px; }
+ul.LoginCriteria li.inputbox input.User {background:url(../images/LoginIcons.png) no-repeat 6px 6px; width:83%; padding:11px 5px 11px 42px; border:none; font:normal 15px Tahoma, Geneva, sans-serif; color:#57595e;}
+ul.LoginCriteria li.inputbox input.Password {background:url(../images/LoginIcons.png) no-repeat 6px -33px; width:83%; padding:11px 5px 11px 42px; border:none; font:normal 15px Tahoma, Geneva, sans-serif; color:#57595e;}
+ul.LoginCriteria li input.LoginBtn[type="button"] {background:url(../images/LoginBtn.png) repeat-x; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px;
+border:solid 1px #ae0300; padding:7px 20px; font:bold 15px arial; color:#fff; cursor:pointer; }
+ul.LoginCriteria li input.LoginBtn[type="button"]:hover {background:url(../images/LoginBtn.png) 0px 35px; repeat-x;}
+ul.LoginCriteria li a.forgotPwd {font:normal 12px arial; color:#222; margin:0px 0px 0px 15px; text-decoration:none;}
+ul.LoginCriteria li a.forgotPwd:hover {text-decoration:underline;}
+ul.LoginCriteria li label.NotYet {font:normal 12px arial; color:#222; float:left; margin:10px 0px 0px 0px;}
+ul.LoginCriteria li a.CreateAccount {font:bold 13px arial; color:#2A7690; text-decoration:none; float:left; margin:10px 0px 0px 8px;}
+ul.LoginCriteria li a.CreateAccount:hover {text-decoration:underline;}
+a.close {background:url(../images/closeicon.png) no-repeat; width:35px; height:35px; position:absolute; top:25px; right:-10px;margin:7px 412px 0px 0px;}
+
+
+
+ul.LoginCriteria li input.remeberChkBox[type="checkbox"] {float:left; margin:12px 0px 0px 0px; }
+ul.LoginCriteria li label.RememberMe {float:left; margin:12px 0px 0px 6px; font:normal 12px arial; color:#666;}
+.HomePageLoginWindow a.close {right:-3px; top:10px;}
+.MainPageLoginWindow a.close {right:-5px; top:14px;}
+
+
+
+/*newstyle css by madhu */
+
+
+.User {background:url(../images/LoginIcons.png) no-repeat 6px 6px; width:83%; padding:11px 5px 11px 42px; border:none; font:normal 15px Tahoma, Geneva, sans-serif; color:#57595e;}
+.Password {background:url(../images/LoginIcons.png) no-repeat 6px -33px; width:83%; padding:11px 5px 11px 42px; border:none; font:normal 15px Tahoma, Geneva, sans-serif; color:#57595e;}
+.LoginBtn{background:url(../images/LoginBtn.png) repeat-x; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px;
+border:solid 1px #ae0300; padding:7px 20px; font:bold 15px arial; color:#fff; cursor:pointer; border-color: #2A7690;}
+.LoginBtn:hover {background:url(../images/LoginBtn.png) 0px 35px; repeat-x;}
+.remeberChkBox {float:left; margin:12px 0px 0px 0px; }
+.RememberMe {float:left; margin:12px 0px 0px 6px; font:normal 12px arial; color:#666;}
+/*newstyle css by madhu */
+
+
+#boxes #dialog1 {
+  width:375px; 
+  height:203px;
+}
+
+#dialog1 .d-header {
+  background:url(images/login-header.png) no-repeat 0 0 transparent; 
+  width:375px; 
+  height:150px;
+}
+
+#dialog1 .d-header input {
+  position:relative;
+  top:60px;
+  left:100px;
+  border:3px solid #cccccc;
+  height:22px;
+  width:200px;
+  font-size:15px;
+  padding:5px;
+  margin-top:4px;
+}
+
+#dialog1 .d-blank {
+  float:left;
+  background:url(images/login-blank.png) no-repeat 0 0 transparent; 
+  width:267px; 
+  height:53px;
+}
+
+#dialog1 .d-login {
+  float:left;
+  width:108px; 
+  height:53px;
+}
+
+#boxes #dialog2 {
+  background:url(images/notice.png) no-repeat 0 0 transparent; z-index:10000;
+ }
+ #boxes #dialog3 {
+  background:url(images/notice.png) no-repeat 0 0 transparent; z-index:10000; top:70px !Important;
+ }
+
+
+
+/* ------------------------------------------------------------------------------------------------------
+Register Page Styles */
+
+
+#boxes .RegisterWindow {
+  position:absolute;
+  width:700px;
+  padding:12px 10px 10px;
+  display:none;
+  z-index:9999;
+  padding:20px; background:url(../images/LoginArrw.png) no-repeat 195px 9px; 
+}
+
+.RegisterWindow .WindowCtnr {width:100%; padding:12px 10px 10px; margin-top:23px;}
+.WindowCtnr .FieldsCtnr {-moz-border-radius:10px; -webkit-border-radius:10px; border-radius:10px; border:solid 3px #3F9FC0; float: left;
+height: 100%; margin: 0; padding:0px;width: 100%;  background-color:#fff;}
+.FieldsCtnr ul.RgstrnForm {margin:12px 0px 12px 30px; width:95.5% !important;}
+.FieldsCtnr ul.RgstrnForm li.TitleHolder h2.Title {width:96%; border-bottom:dashed 1px #666;}
+.FieldsCtnr ul.RgstrnForm li.FooterFields {width:92%;}
+.FieldsCtnr ul.RgstrnForm li.TitleHolder p.PwdInfo {font:normal 12px arial; color:#696969; margin:0px 0px 25px 0px; padding:0px; float:left; }
+#dialog3 ul.RgstrnFormFPwd li {width:100%;}
+#dialog3 ul.RgstrnFormFPwd li label.fieldLabelFPwd {width:auto !important; float:left; margin:8px 15px 0 0px;}
+#dialog3 ul.RgstrnFormFPwd li input.inputFieldFPwd { width:70%; float:left;}
+#dialog3 ul.RgstrnFormFPwd li.FooterFieldsFPwd {background:none; border:none; margin:0px; padding:0px;}
+#dialog3 ul.RgstrnFormFPwd li.FooterFieldsFPwd p.SbmtOrCncl {margin:0px 0px 0px 47px; padding:0px;}
+a.close {background:url(../images/closeicon.png) no-repeat; width:35px; height:35px; position:absolute; top:15px; right:5px;}
+.WindowCtnr a.close {background:url(../images/closeicon.png) no-repeat; width:35px; height:35px; position:absolute; top:45px; right:-15px; margin: 0px;}
+
+/*REGISTER FORM STYLES------------------------------------------------*/
+ul.RgstrnForm {margin:0px; padding:0px; float:left; width:100%; }
+ul.RgstrnForm li {float:left; list-style:none; width:47%; margin:0px 20px 20px 0px; }
+ul.RgstrnForm li.TitleHolder {width:100%; list-style:none; margin:0px 15px 0px 0px; }
+ul.RgstrnForm li.TitleHolder h2.Title {font:bold 15px arial; color:#2A7690; width:100%; float:left;}
+ul.RgstrnForm li label.fieldLabel {font:normal 12px arial; color:#222; width:100%;}
+ul.RgstrnForm li input.inputField {font:nomral 14px arial; color:#666; width:90%; padding:8px 10px; border:solid 1px #c2c6ce; float:left;}
+ul.RgstrnForm li select.CountryFiled, select.AboutUs {font:nomral 14px arial; color:#666; width:96%; padding:8px 10px; border:solid 1px #c2c6ce; float:left;}
+
+ul.RgstrnForm li.TextArea textarea.textField {font:nomral 14px arial; color:#666; width:90%; padding:10px; border:solid 1px #c2c6ce; float:left; resize:none; height:85px;}
+ul.RgstrnForm li.FooterFields{font:normal 13px verdana; color:#4b515d; width:95%; background-color:white;  padding:10px;}
+ul.RgstrnForm li.FooterFields p.MailOffer{font:normal 12px arial; color:#4b515d; width:25%; float:left; margin:0px; padding:0px;}
+ul.RgstrnForm li.FooterFields p.AcceptTC{font:normal 12px arial; color:#4b515d; width:55%; float:left; margin:0px; padding:0px;}
+ul.RgstrnForm li.FooterFields p.AcceptTC a {font:normal 12px arial; color:#ef2d1d; text-decoration:none;}
+ul.RgstrnForm li.FooterFields p.AcceptTC a:hover {text-decoration:underline;}
+
+ul.RgstrnForm li.FooterFieldsnew{font:normal 13px verdana; color:#4b515d; width:95%; background-color:white;  padding:10px;}
+
+ul.RgstrnForm li.FooterFields p.SbmtOrCncl {width:100%; margin:15px 0px 5px 0px; padding::0px; float:left;} 
+ul.RgstrnForm li.FooterFields p.SbmtOrCncl input.Submit[type="button"] {font:bold 13px arial; background:url(../images/LoginBtn.png) repeat-x; padding:5px 12px; color:#fff; margin:0px; border:none; -moz-border-radius:4px; -webkit-border-radius:4px; border-radius:4px; cursor:pointer; margin:0px 15px 0px 0px; border:solid 1px #8f0000;}
+
+ul.RgstrnForm li.FooterFields p.SbmtOrCncl input.Cancel[type="button"] {font:bold 13px arial; background:url(../images/CancelBtnnew.png) repeat-x; padding:5px 12px; color:#fff; margin:0px; border:none; -moz-border-radius:4px; -webkit-border-radius:4px; border-radius:4px; cursor:pointer; border:solid 1px #92969e; color:#707378;}
+
+ul.RgstrnForm li.FooterFields p.SbmtOrCncl {width:100%; margin:15px 0px 5px 0px; padding::0px; float:left;} 
+ul.RgstrnForm li.FooterFields p.SbmtOrCncl .Submit {font:bold 13px arial; background:url(../images/LoginBtn.png) repeat-x; padding:5px 12px; color:#fff; margin:0px; border:none; -moz-border-radius:4px; -webkit-border-radius:4px; border-radius:4px; cursor:pointer; margin:0px 15px 0px 0px; border:solid 1px #8f0000;border-color: #2A7690;}
+
+ul.RgstrnForm li.FooterFields p.SbmtOrCncl .Cancel {font:bold 13px arial; background:url(../images/CancelBtnnew.png) repeat-x; padding:5px 12px; color:#fff; margin:0px; border:none; -moz-border-radius:4px; -webkit-border-radius:4px; border-radius:4px; cursor:pointer; border:solid 1px #92969e; color:#707378;}
+.fieldLabel {font:normal 12px arial; color:#222; width:100%;}
+.inputField {font:nomral 14px arial; color:#666; width:90%; padding:8px 10px; border:solid 1px #c2c6ce; float:left;}
+.textField {font:nomral 14px arial; color:#666; width:90%; padding:10px; border:solid 1px #c2c6ce; float:left; resize:none; height:85px;}
+
+
+
+
+ .validationSummary
+{
+    width: 800px;
+    padding-top: 8px;
+    padding-left:5px;
+    padding-bottom: 450px;
+    font: 13px Verdana;
+    color: #E3E7FB;
+    background:none;
+   overflow:hidden; 
+}
+ 
+
+.validationSummary ul li {background:url('../images/exclamation.png')  #FFFBCC 10px 11px no-repeat; width:70%; margin:10px 0px 0px 0px;
+border: #E6DB55 solid 1px; color: #666452;-moz-border-radius:6px; -webkit-border-radius:6px; -border-radius:6px; padding:10px 20px 15px 30px;list-style:none; }
+
+/*MainPage Login Styles*/
+
+.MainPageLoginCtnr {width:100%; position:absolute; margin:0px auto; z-index:9999; left:0px; right:0px;}
+.MainPageLoginCtnr .Loginwindow {background:none !Important;}
+.MainPageLoginCtnr #boxes {position:relative; }
+#boxes .Loginwindow {top:48px !Important; left:0px; right:0px; margin:0px auto; padding:0px; position:relative;}
+#boxes .Loginwindow a.close {margin:0px; right:-26px; top:-10px;}
+
+
+.AlertBoxWindow  {position:fixed; width:100%; left:0px; right:0px; margin:0px auto;}
+.AlertBoxWindow #FieldsCtnr {position:relative; margin:0px auto; left:0px; right:0px;}
+.AlertBoxWindow #FieldsCtnr a.close {right:-15px !important; top:-15px !important;}
+
+a#btnalertsubmitPopup {padding:8px 25px !important;}
+#boxes #dialog2{top:20px !Important;}
+
+ul.RgstrnForm li.TextArea {height:75px;}
+ul.RgstrnForm li.TextArea textarea {height:60px;}

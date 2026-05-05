@@ -1,0 +1,109 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Data;
+using System.Collections;
+
+public partial class Admin_NewTopFrm : System.Web.UI.Page
+{
+    DataSet ds = new DataSet();
+   // MySql ms = new MySql();
+    //Hashtable ht = new Hashtable();
+
+    protected void Page_Load(object sender, EventArgs e)
+    {
+       GetUsers();
+        int storeid = Convert.ToInt32(Session["StoreID"]);
+        if (Convert.ToInt32(Session["LoginID"]) == 1)
+        {
+            Hellouser.Visible = true;
+            changerpassword.Visible = true;
+            img1.Visible = false;
+        }
+        else
+        {
+            Hellouser.Visible = false;
+            changerpassword.Visible = false;
+            if (Convert.ToInt32(Session["StoreID"]) != 0)
+            {
+                string fileName = Convert.ToString(Session["StoreImage"]);
+                if (fileName != "")
+                {
+                    img1.Src = "~/images/StoreImages/" + fileName;
+                    img1.Visible = true;                   
+                }
+            }
+            else
+                img1.Visible = false;
+        }
+
+
+
+        //string filename = Convert.ToString(Session["StoreImage"]);
+        //if (Convert.ToString(Session["LoginID"]) == "1")
+        //    imgStore.ImageUrl = "~/images/Logo.png";
+        //if(Convert.ToInt32(Session["LoginID"])!=1)
+        //{
+        //    if (storeid == 0)
+        //        imgStore.ImageUrl = "~/images/Logo.png";
+        //    else
+        //    {
+        //        if (filename != "")
+        //            imgStore.ImageUrl = "~/images/StoreImages/" + filename;
+        //        else
+        //            imgStore.ImageUrl = "~/images/Logo.png";
+                   
+        //    }
+        //}
+        //if (storeid != 0)
+        //{
+        //    ancfrm.Visible = true;
+        //    lnkLogOut.Visible = false;
+        //    Session["Count"] = 1;
+        //}
+        //else
+        //{
+        //    ancfrm.Visible = false;
+        //    lnkLogOut.Visible = true;
+        //}
+    }
+    public void GetUsers()
+    {
+        //int Loginid = Convert.ToInt32(Session["LOGINID"]);
+        //Hellouser.Text = "| Hi " + Session["LOGINNAME"].ToString()+"|";
+        //string Date = System.DateTime.Now.ToString("dd-MMM-yyyy") + " |";
+        //lblToDayDate.InnerText = Date;
+
+
+        
+        string Date = System.DateTime.Now.ToString("dd-MMM-yyyy");
+        lblToDayDate.InnerText = Date;
+        Hellouser.Text ="Welcome "+ Session["LOGINNAME"].ToString();
+    }
+
+    protected void lnkLogOut_Click(object sender, EventArgs e)
+    {
+        int StoreID = Convert.ToInt32(Session["StoreID"]);
+        Session["LoginID"] = null;
+        //if(StoreID!=0)
+        //Response.Write("<script>");
+        //Response.Write("../Screens/ClosingCounter.aspx'");
+        //Response.Write("</script>");
+        string url = "../Login.aspx";
+        Response.Write("<script>");
+        Response.Write("parent.location.replace('" + url + "');");
+        Response.Write("</script>");
+
+    }
+    protected void LinkHome_Click(object sender, EventArgs e)
+    {
+        string url = "../Admin/Default.aspx";
+        Response.Write("<script>");
+        Response.Write("parent.location.replace('" + url + "');");
+        Response.Write("</script>");
+
+    }
+}

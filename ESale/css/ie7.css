@@ -1,0 +1,204 @@
+#mask {z-index:0 !important; position:absolute; width:100%; height:100%;}
+.HeaderCtnr ul.MenuCtnr li { margin:11px -9px;}
+input.BtnStyle {padding-left:10px; padding-right:10px; }
+.LeftColBox span.TextInfo {width:50% !important;}
+.lblBrandErrormsg { float:left; height:35px; width:300px; }
+
+label.copyrights {width:30%; float:left; display:block;}
+span.FollowUs {width:25%; display:block;}
+h2.AddToCartCaption {height:25px;}
+
+.Loginwindow .LoginWindowCtnr {height:285px;}
+.rightCol ul.RgstrnForm li select.CountryFiled{padding:8px 10px !important; float:left; height:45px !important;}
+select.CountryFiled{padding:8px 10px !important; float:left; height:30px !important; display:block;}
+
+span.fieldLabel {margin:0px !Important;}
+
+ul.RgstrnForm li select.CountryFiled {height:45px !Important;}
+a#lnkUnderConstruction {font:normal 11px tahoma; color:#222; text-decoration:none;}
+ul.RgstrnForm li.FooterFields p.SubmtOrcncl {margin:0px 0px 5px ;}
+a#imgBtnCancel {height:28px; line-height:28px; padding:0px 10px; position:absolute !important; }
+.HaveAccountBox label.HavAccountTxt {margin-top:5px !Important;}
+a#btnalertsubmitPopup {padding:9px 25px !Important;  
+                        }
+
+
+
+table.AddToCart {width:691px; border:solid 1px #b2b5be;}
+table.AddToCart tbody {margin:0px; padding:0px;}
+table.AddToCart tbody tr:nth-child(even) {width:100%; float:left; background-color:#fff; height:35px; border-bottom:solid 1px #b2b5be;}
+table.AddToCart tbody tr:nth-child(odd)  {width:100%; float:left; background-color:#e8ecf1; height:35px; }
+table.AddToCart tbody tr th {background:url(../images/thBgimg.png) repeat-x; height:35px; float:left; font:bold 14px/30px arial; color:#50545b;}
+table.AddToCart tbody tr th.Details {width:18%; text-align:left; padding:0px 0px 0px 12px;}
+table.AddToCart tbody tr th.Name {width:34%; text-align:left; padding:0px 0px 0px 12px;}
+table.AddToCart tbody tr th.Price {width:13%; text-align:left; padding:0px 0px 0px 12px;}
+table.AddToCart tbody tr th.Qnty {width:13%; text-align:left; padding:0px 0px 0px 12px;}
+table.AddToCart tbody tr th.Buy {width:13%; text-align:left; padding:0px 0px 0px 12px;}
+table.AddToCart tbody tr td.Details {width:18%; font:normal 12px arial; color:#222; float:left; text-align:left; padding:0px 0px 0px 12px;}
+table.AddToCart tbody tr td.Details img{ height:30px; float:left; margin:2px 0px;} 
+table.AddToCart tbody tr td.Name {width:34%; font:normal 12px arial; color:#222; float:left; text-align:left; padding:10px 0px 10px 12px;}
+table.AddToCart tbody tr td.Price {width:13%; font:normal 12px arial; color:#222; float:left; text-align:left; padding:10px 0px 10px 12px;}
+table.AddToCart tbody tr td.Qnty {width:13%; font:normal 12px arial; color:#222; float:left; text-align:left; padding:6px 0px 6px 12px;}
+table.AddToCart tbody tr td.Qnty select {font:normal 12px arial; color:#222; padding:3px; border:solid 1px #b4b9c1;}
+table.AddToCart tbody tr td.Buy {width:13%; font:normal 12px arial; color:#222; float:left; text-align:left; padding:10px 0px 10px 12px;}
+table.AddToCart tbody tr td.Buy a.buy {font:normal 12px arial; color:#ec2a1d; float:left; text-decoration:none;}
+table.AddToCart tbody tr td.Buy a.buy:hover {text-decoration:underline;}
+
+table.AddToCart tbody tr.SubtotalRow {background-color:#dbf3fc; width:100% !important; float:left; }
+table.AddToCart tbody tr.SubtotalRow td{width:0px !Important; display:inline; padding:0px !important;}
+table.AddToCart tbody tr.SubtotalRow td p.AmntPay {   color: #313537; float: left; font: bold 15px arial; margin: 0 5px 0 0; padding: 8px 0 8px 0px;}
+table.AddToCart tbody tr.SubtotalRow td p.SubTotal { background-color: #93c2d3;height:22px; color: #fff; float: left; font: bold 18px arial; margin: 0; padding:6px 5px; width: 128px;}
+
+input.ProceedToPay[type="button"] {background:url(../images/LoginBtn.png) repeat-x; padding:5px 15px; font:bold 15px arial; color:#fff; -moz-border-radius:5px;
+-webkit-border-radius:5px; border-radius:5px; border:solid 1px #960a04; margin:15px 10px 0px 0px; float:right; cursor:pointer;}
+input.ProceedToPay[type="button"]:hover {background-position:0px -32px;}
+
+
+.SelectCntryBlock ul.ListofCntrys li{height:120px; position:relative; z-index:0 !important;}
+.SelectCntryBlock ul.ListofCntrys li .countryImagestyle {position:relative; z-index:0 !important;}
+.SelectCntryBlock ul.ListofCntrys li a {clear:both; position:absolute; bottom:0px; left:0px; width:100%; text-align:center;}
+
+.HeaderWrapper .HeaderCtnr #boxes .Loginwindow {position:absolute !Important; left:100px !important; right:0px; margin:0px auto; z-index:99999 !important;}
+#mask {z-index:1 !important; position:fixed !Important;}
+.Loginwindow .LoginWindowCtnr{z-index:99999 !important;}
+
+
+/*.ContentCtnr .leftCol {padding-top:45px;}
+.ContentCtnr .rightCol {padding-top:45px;}*/
+.FooterBlock {position:static !important; width:102% !important; height:65px; float:left;}
+
+.HeaderInfoBox .HaveAccount {width:100% !important;}
+.AboutBlock {margin:0px 0px 0px 0px;}
+iframe#TermsandConditionsfrm1 {overflow:auto !Important; border:none !Important;}
+#boxes .RegisterWindow {top:0px !important;}
+.WindowCtnr a.close {top:30px !important;}
+#boxes .Loginwindow {z-index:99999999;}
+.tab_content ul.ItemsCtnr div.ItemBlock .ItemInfo span.AddToCart {margin:0px !important; width:100px !important;}
+.tab_content ul.ItemsCtnr div.ItemBlock .ItemInfo span.AddToCart input.btnTabImgAddCart {text-align:left;}
+#divVouchersBuy {margin:0px;}
+
+
+.MainPageLoginCtnr {width:100%; position:absolute; margin:0px auto; z-index:9999; left:0px; right:0px;}
+.MainPageLoginCtnr .Loginwindow {background:none !Important;}
+.MainPageLoginCtnr #boxes {position:relative; }
+#boxes .Loginwindow {top:23px !Important; left:0px; right:0px; margin:0px auto; padding:0px; position:relative; z-index:99999;}
+#boxes .Loginwindow a.close {margin:0px; right:-26px; top:-10px;}
+
+
+.HomePageLoginCtnr {width:100%; position:absolute; margin:0px auto; z-index:9999; left:0px; right:0px;}
+.HomePageLoginCtnr .Loginwindow {background:none !Important;}
+.HomePageLoginCtnr #boxes {position:relative; }
+#boxes .Loginwindow {top:23px !Important; left:0px; right:0px; margin:0px auto; padding:0px; position:relative; z-index:99999;}
+#boxes .Loginwindow a.close {margin:0px; right:-26px; top:-10px;}
+
+
+iframe#aboutfrm1 {height:93% !important;}
+.ArrowIcon {position:relative; z-index:999;}
+#divMainCtntCtnr {margin:30px auto 0px auto;}
+#divFAQ {margin:0px !important;}
+
+#CallingDestination {position:fixed !important; left:0px; right:0px; z-index:999999; width:100%; margin:0px auto;}
+#CallingDestination .RegisterWindow {position:relative; left:0px; right:0px; margin:0px auto !important; padding:0px !important;}
+
+.LiveChatWindowCtnr {position:fixed !important; left:0px; right:0px; z-index:999999; width:100%; margin:0px auto;}
+.LiveChatWindowCtnr #dialog4 {position:relative; left:0px; right:0px; margin:0px auto !important; padding:0px !important;}
+#dialog4 #divLiveChat .FieldsCtnr ul.RgstrnForm li {padding-bottom:15px !important;float:left;}
+
+
+#CallingDestination .RegisterWindow a.close {top:92px !important; right:15px !important;}
+select#ddlDestCountry {border:solid 1px #ccc; margin:0px !important; float:left;}
+select#ddlSourceCountry {border:solid 1px #ccc;}
+
+
+#btngmailpopup {float:left !important; position:absolute; right:10px; width:140px;}
+#divInviteGmailFriends {position:relative;}
+
+
+span#lblnewpwd {margin:0px !important;}
+span#lblConfirmpwd{margin:0px !important;}
+input#txtconfirmpwd{margin:-20px 0px 0px 100px !important;}
+input#btnsubmitrequest{margin:28px 0px 0px -275px !important;}
+p.AmntPay {position:absolute; left:350px;}
+p.SubTotal{position:absolute; left:875px;}
+tr.SubtotalRow {position:relative; float:left; height:35px;  display:block; width:100% !important; left:0px;}
+tr.SubtotalRow p.AmntPay {right:50px !Important; left:auto !Important;}
+/*tr.SubtotalRow p.SubTotal {right:-80px !Important; left:auto !Important;}*/
+
+table#VoucherBuygrid tr.HomeGridSubTotal td p.AmntPay{right:auto !Important; left:350px !important;}
+table#VoucherBuygrid tr.HomeGridSubTotal td p.SubTotal{right:auto !Important; left:460px !important;}
+
+#boxes #JqpopupRegister {top:75px !important;}
+.CtntWrapper .AboutBlock {padding-top:20px;}
+
+
+#boxes {z-index:9999999;}
+#boxes .AlertBoxWindow {width:100% !important; position:fixed; left:0px; right:0px; margin:0px auto !important; background:none !important;} 
+#boxes .AlertBoxWindow #FieldsCtnr {height:auto !Important; position:relative !important; margin:0px auto !important; left:0px; right:0px; background-color:#fff; width:700px !important; float:none !important;}
+
+
+#boxes #RegisterSuccs {width:100% !important; position:fixed; left:0px; right:0px; margin:0px auto !important; background:none !important;} 
+#boxes #RegisterSuccs .RegisterSuccsBox {height:auto !Important; position:relative !important; margin:0px auto !important; left:0px; right:0px; background-color:#fff; width:700px !important; float:none !important;}
+.RegisterSuccsBox a.close {top:-15px !important;}
+
+#boxes #RegisterThanks {width:100% !important; position:fixed; left:0px; right:0px; margin:0px auto !important; background:none !important;} 
+#boxes #RegisterThanks .FieldsCtnr {height:auto !Important; position:relative !important; margin:0px auto !important; left:0px; right:0px; background-color:#fff; width:700px !important; float:none !important;}
+#RegisterThanks .FieldsCtnr a.close {top:-15px !important;}
+
+
+#boxes #divLiveChat {width:100% !important; position:relative !important; left:0px; right:0px; margin:0px auto !important; background:none !important;} 
+#boxes #divLiveChat .FieldsCtnr {height:auto !Important; position:relative !important; margin:0px auto !important; left:0px; right:0px; background-color:#fff; width:700px !important; float:none !important;}
+#divLiveChat a.close {top:78px !important; position:absolute !Important; z-index:999999;}
+.LiveChatWindowCtnr .ChatWindow #divLiveChat a.close {top:-14px !important; right:-22px !important;}
+
+
+.TransactionHdr .HeaderCtnr ul.MenuCtnr li.HomeLi {margin:0px 0px !important;}
+ifrmae#Sitemapfrm1 .AccountSettingsCtnr {width:auto !Important;}
+#Accoutnstngs {width:900px !Important;}
+#Accoutnstngs #divAccountDetails {width:100% !important; float:left !important;}
+#Accoutnstngs ul.FormContainer {width:100%; margin:0px !important;}
+#Accoutnstngs ul.FormContainer li input[type="text"]{float:left; height:12px; padding:5px; border:solid 1px #b6b6b6; width:61% !important;}
+#Accoutnstngs ul.FormContainer li select{float:left; height:12px; padding:5px; border:solid 1px #b6b6b6; width:61% !important;}
+#Accoutnstngs ul.FormContainer li label{float:left; padding:5px;  width:26% !important;}
+#Accoutnstngs ul.FormContainer li textarea{width:61% !important;}
+#Accoutnstngs ul.FormContainer li span.Gender {width:auto !Important;}
+#Accoutnstngs ul.FormContainer li span.Gender label {width:auto !Important;}
+label.InfoText {margin:0px !Important;}
+
+
+ul.RgstrnForm li.ListedItems {height:50px !important;}
+ul.RgstrnForm li.ChkLabels {height:30px !important;}
+ul.RgstrnForm li.TextArea{height:75px !important;}
+ul.RgstrnForm li.TextArea textarea.textField {height:65px !Important;}
+ul.RgstrnForm li.FooterFields {padding:0px 0px 10px 0px !important;}
+
+#divorderhistory {float:left !important;}
+#divorderhistory p.Title b {margin:0px 0px 0px 20px !important;}
+
+#divchangepassword {width:100% !important; float:left !Important; margin:0px !Important;}
+#pnlChangePassword ul.FormContainer li{height:50px !Important;}
+#pnlChangePassword ul.FormContainer li.ConfirmPwd{height:90px !Important;}
+#pnlChangePassword ul.FormContainer li input[type="text"] {width:61% !Important; }
+#pnlChangePassword ul.FormContainer li input[type="password"] {width:61% !Important; }
+#pnlChangePassword ul.FormContainer li input#txtconfirmpwd[type="password"] {float:none !Important; margin:0px 0px 0px 15px !important;}
+#pnlChangePassword ul.FormContainer li input#txtnewpwd[type="password"] {float:none !Important; margin:-20px 0px 0px 95px !important;}
+
+
+#pnlChangePassword ul.FormContainer li.ConfirmPwd input.ChngReqBtn[type="submit"] {float:left; margin:20px 0px 0px 20px !Important;}
+#pnlChangePassword ul.FormContainer li {margin:0px !Important;}
+#pnlChangePassword ul.FormContainer li label {width:21% !Important;}
+#pnlChangePassword ul.FormContainer li span {width:21% !Important;}
+
+iframe#Contactusfrm1 {height:680px !Important;}
+.AboutBlock div.CtnctInfo {height:565px !important;}
+
+
+#InviteGmailFrnds  {
+background-color:#e8f7fc; height:100% !important; float:left;
+border: solid 2px #C9ECF9;
+padding: 10px;
+padding-bottom:  420px !important;
+}
+
+.WindowCtnr .AdditionAlert a.close {top:210px !important; right:-120px !important;}
+
+

@@ -1,0 +1,283 @@
+.body {
+margin-left: 0px;
+margin-top: 0px;
+margin-right: 0px;
+margin-bottom: 0px;
+/* background-image: url(../images/SlideImages/img1.jpg); */
+background-color: black;
+
+}
+.modalBackground {
+	background-color:Gray;
+	/*filter:alpha(opacity=80);
+	opacity:0.9;*/
+}
+
+.modalPopup {
+	background-color:#ffffdd;
+	border-width:3px;
+	border-style:solid;
+	border-color:Gray;
+	padding:3px;
+	width:250px;
+}
+ .style1
+        {
+            font-family: "Trebuchet MS";
+            font-size: 18px;
+            color: #FFFFFF;
+            font-weight: 100;
+            text-decoration: none;
+            height: 18px;
+            width: 897px;
+            padding-top: 3px;
+            padding-bottom: 3px;
+            background-color: Orange;
+            background-image: url('../Images/Images/headingbg.jpg');
+            background-repeat: repeat-x;
+        }
+Table TR TD {color:Blue; font-size:12px; font-family:Verdana;}
+.heading{background-image:url(../Images/Images/); background-repeat:repeat-x; font-family:"Trebuchet MS"; font-size:18px; color:Orange; font-weight:crisp; text-decoration:none; height:18px; padding-bottom:3px; padding-top:3px; background-color:Orange;}
+.ReportTable TR TD {color:Blue; font-size:12px; font-family:Verdana; border:solid Orange 1px; border-style:solid; }
+
+.heading{background-image:url(../Images/headingbg.jpg); background-repeat:repeat-x; font-family:"Trebuchet MS"; font-size:18px; color:#ffffff; font-weight:100; text-decoration:none; height:18px; padding-bottom:3px; padding-top:3px;}
+.textbox {font-family:Verdana; font-size:12px; color:#FFFFFF; font-weight:normal; text-decoration:none; width:110px; height:20px; background-color:#000000; border:solid #000000 0px; text-align:center;}
+
+.logo {background-image:url(D:\\Working\\EnhanceSchool\\ESM\\Web\\ESMImages\\logob.gif); background-repeat:no-repeat; width:998px; height:80px;}
+
+.sidemenuback {width:100%; height:100%; border:solid #697CE9 1px; border-style:solid;}
+
+.sidemenu{ font-family:"Verdana"; font-size:18px; color:Orange; font-weight:bold; text-decoration:none; letter-spacing:1px;
+background-image:url(../Images/Images/arrowb.gif); background-repeat:no-repeat; background-position:left; padding-left:24px; line-height:25px; }
+
+.sidemenu:active{ font-family:"Verdana"; font-size:18px; color:#ffffff; font-weight:bold; text-decoration:none; letter-spacing:1px; background-image:url(D:\\Working\\EnhanceSchool\\ESM\\Web\\ESMImages\\arrowbdown.gif); background-repeat:no-repeat; background-position:left; padding-left:24px; line-height:25px;}
+
+.sidesubmenu{ font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#666666; font-weight:bold; text-decoration:none; letter-spacing:0.5px; background-position:left; padding-left:30px; line-height:16px; }
+.sidesubmenu:hover{ font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#666666; font-weight:bold; text-decoration:underline; letter-spacing:0.5px; background-position:left; padding-left:30px; line-height:16px; }
+
+
+.MessageClass {font-family:Verdana; font-size:13px; color:Red;text-align:center; width:100%; font-weight:normal; text-decoration:none;}
+
+.Label{color:#696969 ; font-size:12px; font-family:Verdana;}
+.Label1{color:white ; font-size:15px; font-family:Verdana;}
+
+.TitleClass {
+        font-family: Verdana;
+        font-size: 16px;
+        color: Black;
+        text-align: center;
+        width: 100%;
+        font-weight: normal;
+        text-decoration: none;
+        background-color: #fab901;
+        border-bottom: solid black 1px;
+        vertical-align: middle;
+        height:35px;
+ }
+
+.copy {font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#697CE9; font-weight:normal; text-decoration:none;}
+
+.tableborder { border:1px solid #d9d7d8;margin-top:6px;
+    }
+.tableborder2 { border:solid Orange 1px; border-style:solid; background-color:#f7f7f7; text-align:center;width:100%;}
+.welcomeTable{border: solid 1px #d9d7d8;width:100%; text-align:left}
+.orangeline {background-image:url(~/Images/orangeline.jpg); background-repeat:repeat-x; height:12px; margin-bottom:5px; margin-top:5px;}
+.tableborder1 { border:solid Orange 1px; border-style:solid; background-color:#f7f7f7; width:105px ;}
+.ButtonClass { border:solid Orange 0px; background-color:Orange; font-family:Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; color: #ffffff; text-align:center; width:100px; }
+/*.DropDownClass {font-family:Verdana; font-size:12px; color:#333333; font-weight:normal; text-decoration:none; border:solid #aad3ff 1px; width:auto; background-color:#FFFFFF; margin-bottom:5px; margin-left:5px;}*/
+.DropDownClass 
+{
+    padding: 6px;
+    font-size: 13px;
+    background: white url('../images/bg-form-field.gif') repeat-x left top;
+    border: 1px solid #D5D5D5;
+    color: #333;
+    width:165px;
+    border-radius:4px;
+	margin-left: 0px;
+}
+
+
+/*.TextBoxStyle{border:solid #AAD3FF 1px; background-color:#FFFFFF; font-family:Verdana; font-size:12px; color: #333333; width:105px; height:16px;}*/
+.TextBoxStyle
+{
+    padding: 6px;
+    font-size: 13px;
+    background: white url('../images/bg-form-field.gif') repeat-x left top;
+    border: 1px solid #D5D5D5;
+    color: #333;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;   
+    margin-bottom: 0px;
+	/*height: 30px;
+	width: 134px;*/
+}
+.TextBoxClass {border:solid #AAD3FF 1px; background-color:#FFFFFF; font-family:Verdana; font-size:12px; color: #333333; width:105px; height:16px; margin-left: 4px;}
+
+.textbox1 {  border:solid #AAD3FF 1px; background-color:#FFFFFF; font-family:Verdana; font-size:12px; color: #333333; width:105px; height:16px; }
+
+.dropdown {font-family:Verdana; font-size:12px; color:#333333; font-weight:normal; text-decoration:none; border:solid Orange 1px; width:auto; height:22px;  background-color:#FFFFFF; margin-bottom:5px;}
+
+
+.ButtonClass { border:solid Orange 0px; background-color:Orange; font-family:Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; color: #ffffff; text-align:center; width:100px; margin-bottom: 0px;
+}
+.copyrights {font-family:Verdana; font-size:11px; color:#000000; font-weight:normal; text-decoration:none;}
+
+.submit {font-family:Verdana; font-size:12px; color:#FFFFFF; font-weight:normal; text-decoration:none; background-color:#4d66f1; width:70px; height:30px; border:none;}
+.welcomeText1{font-family: Georgia; font-size: x-large;color:Orange;font-weight:bold;text-align:left}
+.welcomeText2{font-family: Georgia; font-size: xx-large;color:Orange;font-weight:bold;text-align:left}
+.ClsTab ul {list-style: none;padding: 0; margin-left:8px; background-color:#d9d7d8;}
+.ClsTab li {float: left;border: 1px solid #d9d7d8;border-bottom-width: 0; background-color:#d9d7d8;border-color:White;}
+.ClsTab a {text-decoration: none; display: block; background: #d9d7d8; padding: 0.24em 1em; color:black ; width: 10em; text-align: center;background-color:#fab901; }
+.ClsTab a:hover {background: #ddf; text-decoration:none; background-color:#fab901; color:White;}
+.ClsTab #selected {border-color: #d9d7d8; color:#7F5A58;}
+.ClsTab #selected a {position: relative;
+top: 1px;
+background: white;
+color: Green;
+font-weight: bold;
+background-color: #fab901;}
+.ClsContent {
+        border: 1px solid #fab901;
+        clear: both;
+        padding: 0 1em;
+        width: 93%;
+        height: 100%;
+        overflow: hidden;
+        display: block;
+        background-color: #2B0F0E;
+        margin-left: 8px;
+}
+.LeftMenu
+    {
+        font-family: "Trebuchet MS";
+        font-size: 18px;
+        color: Orange;
+        font-weight: 100;
+        text-decoration: none;
+        height: 18px;
+        width: 208px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        background-color:white;
+        background-image: url('../Images/Images/headingbg.jpg');
+        background-repeat: repeat-x;
+    }
+
+      .DivMenu
+        {
+            font-family:Verdana;font-size:12px;color:Orange;font-weight:bold; text-decoration:none; letter-spacing:1px;
+	
+          /* background-image:url(D:\\Working\\EnhanceSchool\\ESM\\Web\\NewImages\\arrowb.gif); */
+           background-repeat:no-repeat; background-position:left; padding-left:2px; line-height:25px;cursor:pointer;
+    width: 191px;
+}
+        .DivMenu:HOVER
+        {
+            text-decoration: Underline;
+        }
+        .DivSubMenu
+        {
+            font-family:Verdana; font-size:12px;display:none; color:Orange;  text-decoration:none; letter-spacing:0.5px; background-position:left; padding-left:10px; line-height:16px; 
+        }
+        .DivSubMenu A
+        {
+            font-family:Verdana; font-size:12px;display:block; color:Orange;  text-decoration:none; letter-spacing:0.5px; background-position:left; padding-left:10px; line-height:16px; 
+        }
+        .DivSubMenu A:HOVER
+        {
+            font-family:Verdana;color:Orange; font-size:12px;display:block;  text-decoration:underline; letter-spacing:0.5px; background-position:left; padding-left:10px; line-height:16px; 
+        }
+        
+        .validationSummary
+{
+    width: 385px;
+    min-height:30px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #C3D9FE;
+    background-color: #E3E7FB;
+    padding-top: 8px;
+    padding-left:45px;
+    padding-bottom: 10px;
+    font: 13px Verdana;
+    color: Black;
+    background-image: url(D:\\Working\\EnhanceSchool\\ESM\\Web\\ESMImages\\Info.gif);
+    background-position: 10px 6px;
+    background-repeat: no-repeat;
+    margin: 3px;
+    overflow:hidden;
+}
+        
+        
+        /*********** Grid Report 1 **************/
+#gridClass table { font:11px Verdana; border-collapse:collapse; border:1px solid Orange; }
+#gridClass table td, table th  {padding:3px 8px;  border:1px solid #ccc; color:#222;font-weight:bold; }
+#gridClass table tr { background:#f2f2f2;}
+#gridClass table th  {background: url('../images/GridHdrRowBgImg.jpg') #e5e5e5 repeat-x;color:Gray; background:black; color:White; }
+
+
+
+/*****************Div **********************/
+/*************************************/
+
+.gridclass table { font:11px Verdana; border-collapse:collapse; border:1px solid Orange; }
+.gridclass table td, table th  {padding:3px 8px;  border:1px solid #ccc; color:#222;font-weight:bold; }
+.gridclass table tr { background:#f2f2f2;}
+.gridclass table th  {background: url('../images/GridHdrRowBgImg.jpg') #e5e5e5 repeat-x;color:Gray; }
+
+/*******************************/
+/*************************************/
+
+.gridClass1 table { font:11px Verdana; border-collapse:collapse; border:1px solid Orange; }
+.gridClass1 table td, table th  {padding:3px 8px;  border:1px solid #ccc; color:#222;/*font-weight:bold;*/ }
+.gridClass1 table tr { background:#f2f2f2;}
+.gridClass1 table th  {background: url('../images/GridHdrRowBgImg.jpg') #e5e5e5 repeat-x;color:Gray; background:black; color:White; }
+
+
+/*******************************/
+
+        
+        /*********** Grid LineItems **************/
+#gridLineItemsClass table { font:11px Verdana; border-collapse:collapse; border:1px solid Orange; }
+#gridLineItemsClass table td, table th  {padding:3px 8px;  border:1px solid #ccc; color:#222; }
+#gridLineItemsClass table tr { background:#f2f2f2;}
+#gridLineItemsClass table th  {background: url('../images/GridHdrRowBgImg.jpg') #e5e5e5 repeat-x;color:Gray; }
+
+
+
+/*****************Div **********************/
+
+
+
+
+        /*********** Grid SearchPickerPopUpStyle **************/
+.SearchPickerPopUpStyle table { font:11px Verdana; border-collapse:collapse; border:1px solid Orange; }
+.SearchPickerPopUpStyle table td, table th  {padding:3px 8px;  border:1px solid #ccc; color:#222; }
+.SearchPickerPopUpStyle table tr { background:#f2f2f2;}
+.SearchPickerPopUpStyle table th  {background: url('../images/GridHdrRowBgImg.jpg') #e5e5e5 repeat-x;color:Gray; }
+
+
+
+/*****************Div **********************/
+
+
+.editorWYSIWYG {font: 10pt Tahoma;border:none;}
+.editorBBCODE {font: 9pt "Courier New";}
+
+div.richeditor {margin-top:7px;margin-bottom:7px}
+div.richeditor div.editbar {margin-top:5px;background-image:url('images/editbar_bg.gif');border-left:1px solid silver;border-right:1px solid silver;border-top:1px solid silver;border-bottom:none;}
+div.richeditor div button{vertical-align:middle;width:25px;height:25px;border:1px solid transparent;background-color:Transparent;cursor:pointer;color:Black;background-position:center;background-repeat:no-repeat;background-image:none;}
+div.richeditor div button:hover{border:1px solid silver;}
+div.richeditor div.container {border-top:none;border-bottom:1px solid silver;border-left:1px solid silver;border-right:1px solid silver;}
+div.richeditor textarea{padding:0px 0px 0px 0px;border:none;}
+div.richeditor iframe{background-color:#ffffff;border:none;}
+.pnlCSS
+{
+    font-weight: bold;
+    cursor: pointer;
+    border: solid 1px #c0c0c0;
+    width:30%;
+    background-color:#697CE9;
+    color:White;
+}

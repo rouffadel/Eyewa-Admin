@@ -1,0 +1,75 @@
+﻿
+.AccountSettingsCtnr {width:935px; margin:0px auto; border:solid 2px #dfdfdf; padding:12px; -moz-border-radius:8px; -webkit-border-radius:8px; border-radius:8px; float:left;} 
+
+.AccountSettingsCtnr h3.HeadingTitle {margin:0px 0px 10px 20px; padding:0px; font:normal 22px arial; color:#dc150e; }
+
+.AccountSettingsCtnr ul.AcntStngsLinks { width:95%; margin:0px auto; height:37px; background:url(../Images/AccntStngsHdr.png) repeat-x; border:solid 1px #bcbcbc; -moz-border-radius:6px; -webkit-border-radius:6px; border-radius:6px; padding:0px;}
+
+.AccountSettingsCtnr ul.AcntStngsLinks li {list-style:none; float:left; margin:0px; padding:0px;}
+
+.AccountSettingsCtnr ul.AcntStngsLinks li a {font:bold 15px/37px arial; color:#222; text-decoration:none; float:left; height:37px; -moz-border-radius:6px; -webkit-border-radius:6px; border-radius:6px; padding:0px 12px;}
+
+.AccountSettingsCtnr ul.AcntStngsLinks li a.Active {font:bold 15px/37px arial; color:#fff; text-decoration:none; background-color:#2A7690; border-radius:0px; -moz-border-radius:0px; -webkit-border-radius:0px; padding:0px 12px;} 
+
+
+
+label.InfoText {padding:15px; font:normal 13px arial; color:#666; float:left; display:block; margin: 0px 0px 0px -265px;}
+
+
+
+.AccountSettingsCtnr ul.FormContainer {width:95%; margin:15px; float:left; padding:0px; }
+
+.AccountSettingsCtnr ul.FormContainer li {font:normal 12px arial; color:#222; width:48%; float:left; list-style:none; margin:0px 0px 20px 0px;}
+
+.AccountSettingsCtnr ul.FormContainer li span {font:normal 12px arial; color:#222;}
+
+.AccountSettingsCtnr ul.FormContainer li label {float:left; font:normal 13px arial; color:#222; width:21%; margin:0px 18px 0px 0px; text-align:right;}
+
+.AccountSettingsCtnr ul.FormContainer li input[type="text"]{float:left; padding:5px; border:solid 1px #b6b6b6; width:65%;}
+
+.AccountSettingsCtnr ul.FormContainer li input[type="radio"] {float:left; border:none;}
+
+.AccountSettingsCtnr ul.FormContainer li textarea {width:65%; height:40px; padding:5px; border:solid 1px #b6b6b6;}
+
+.AccountSettingsCtnr ul.FormContainer li label.Gender {float:left; width:auto;}
+
+.AccountSettingsCtnr input[type="button"] {background-color:#4c525e; border:none; padding:6px 8px; font:bold 13px arial; color:#fff; -moz-border-radius:6px; -webkit-border-radius:6px; border-radius:6px; float:left; clear:both; margin:0px 0px 0px 145px; cursor:pointer; } 
+
+.AccountSettingsCtnr input[type="button"]:hover {backgro.btnSubmit
+{
+ubackground-color: #4C525E;
+border: none;
+padding: 6px 8px;
+font: bold 13px arial;
+color: white;
+float: left;
+clear: both;
+margin: 0px 0px 0px 12px;
+cursor: pointer;
+border-radius: 6
+}
+px;n
+d-color:#222;}
+
+
+
+li.OldPwd {width:100% !important;}
+
+li.OldPwd label {width:12.5% !Important;}
+
+li.OldPwd input {width:31% !Important;}
+
+table#MyAccOrderHistoryGridview {float:left; margin:0 0 0 0px; font-family:Arial !Important; width:100% !important;}
+table#grdTopupHistory {float:left; margin:0 0 0 0px; font-family:Arial !Important; width:100% !important;} 
+table#grdAccountSummary {float:left; margin:0 0 0 0px; font-family:Arial !Important; width:100% !important;}
+
+table#MyAccOrderHistoryGridview tr td a {font:normal 12px arial; color:Blue; text-decoration:none;}
+#pnlorderhistory p.Title {float:left; width:100%; margin:5px 0px; text-align:left;}
+#pnlTopupHistory p.Title {float:left; width:100%; margin:5px 0px; text-align:left;}
+#pnlAccountSummary p.Title {float:left; width:100%; margin:5px 0px; text-align:left;}
+#divInviteGmailFriends table {font-family:Arial !important;}
+
+#divorderhistory {float:left !important;}
+#divorderhistory p.Title b {margin:0px 0px 0px 20px !important;}
+
+

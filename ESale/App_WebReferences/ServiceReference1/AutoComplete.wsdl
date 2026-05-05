@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="HelloWorld">
+        <s:complexType />
+      </s:element>
+      <s:element name="HelloWorldResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="HelloWorldResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AutoCompleteAjaxRequest">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="prefixText" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="count" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AutoCompleteAjaxRequestResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AutoCompleteAjaxRequestResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="AutoCompleteProductRequest">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="prefixText" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="count" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="contextKey" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AutoCompleteProductRequestResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AutoCompleteProductRequestResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AutoCompleteExpenseRequest">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="prefixText" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="count" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AutoCompleteExpenseRequestResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AutoCompleteExpenseRequestResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="HelloWorldSoapIn">
+    <wsdl:part name="parameters" element="tns:HelloWorld" />
+  </wsdl:message>
+  <wsdl:message name="HelloWorldSoapOut">
+    <wsdl:part name="parameters" element="tns:HelloWorldResponse" />
+  </wsdl:message>
+  <wsdl:message name="AutoCompleteAjaxRequestSoapIn">
+    <wsdl:part name="parameters" element="tns:AutoCompleteAjaxRequest" />
+  </wsdl:message>
+  <wsdl:message name="AutoCompleteAjaxRequestSoapOut">
+    <wsdl:part name="parameters" element="tns:AutoCompleteAjaxRequestResponse" />
+  </wsdl:message>
+  <wsdl:message name="AutoCompleteProductRequestSoapIn">
+    <wsdl:part name="parameters" element="tns:AutoCompleteProductRequest" />
+  </wsdl:message>
+  <wsdl:message name="AutoCompleteProductRequestSoapOut">
+    <wsdl:part name="parameters" element="tns:AutoCompleteProductRequestResponse" />
+  </wsdl:message>
+  <wsdl:message name="AutoCompleteExpenseRequestSoapIn">
+    <wsdl:part name="parameters" element="tns:AutoCompleteExpenseRequest" />
+  </wsdl:message>
+  <wsdl:message name="AutoCompleteExpenseRequestSoapOut">
+    <wsdl:part name="parameters" element="tns:AutoCompleteExpenseRequestResponse" />
+  </wsdl:message>
+  <wsdl:portType name="AutoCompleteSoap">
+    <wsdl:operation name="HelloWorld">
+      <wsdl:input message="tns:HelloWorldSoapIn" />
+      <wsdl:output message="tns:HelloWorldSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AutoCompleteAjaxRequest">
+      <wsdl:input message="tns:AutoCompleteAjaxRequestSoapIn" />
+      <wsdl:output message="tns:AutoCompleteAjaxRequestSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AutoCompleteProductRequest">
+      <wsdl:input message="tns:AutoCompleteProductRequestSoapIn" />
+      <wsdl:output message="tns:AutoCompleteProductRequestSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AutoCompleteExpenseRequest">
+      <wsdl:input message="tns:AutoCompleteExpenseRequestSoapIn" />
+      <wsdl:output message="tns:AutoCompleteExpenseRequestSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="AutoCompleteSoap" type="tns:AutoCompleteSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap:operation soapAction="http://tempuri.org/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AutoCompleteAjaxRequest">
+      <soap:operation soapAction="http://tempuri.org/AutoCompleteAjaxRequest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AutoCompleteProductRequest">
+      <soap:operation soapAction="http://tempuri.org/AutoCompleteProductRequest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AutoCompleteExpenseRequest">
+      <soap:operation soapAction="http://tempuri.org/AutoCompleteExpenseRequest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="AutoCompleteSoap12" type="tns:AutoCompleteSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap12:operation soapAction="http://tempuri.org/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AutoCompleteAjaxRequest">
+      <soap12:operation soapAction="http://tempuri.org/AutoCompleteAjaxRequest" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AutoCompleteProductRequest">
+      <soap12:operation soapAction="http://tempuri.org/AutoCompleteProductRequest" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AutoCompleteExpenseRequest">
+      <soap12:operation soapAction="http://tempuri.org/AutoCompleteExpenseRequest" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="AutoComplete">
+    <wsdl:port name="AutoCompleteSoap" binding="tns:AutoCompleteSoap">
+      <soap:address location="http://localhost:2697/ESale/Screens/AutoComplete.asmx" />
+    </wsdl:port>
+    <wsdl:port name="AutoCompleteSoap12" binding="tns:AutoCompleteSoap12">
+      <soap12:address location="http://localhost:2697/ESale/Screens/AutoComplete.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

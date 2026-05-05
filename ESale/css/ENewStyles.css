@@ -1,0 +1,177 @@
+﻿html,body	{margin:0px; padding:0px; height:100%;}
+
+.MainCtnr {width:100%;}
+.TopHeader {width:100%; margin:0px; padding:0px; height:36px;background-color:Black;}
+.TopHeader  .TopHeaderLinks {float:right;}
+.TopHeader  .TopHeaderLinks a.TopLinks {font:normal 14px/35px tahoma; color:#b3b3b3; text-decoration:none; margin:0px 10px;}
+.TopHeader  .TopHeaderLinks a.TopLinks:hover {color:#fff;}
+.TopHeader label.DateHolder {float:right; padding:0px 10px; background:url(../images/DateBg.jpg) repeat-x; height:35px; text-align:center; font:normal 14px/35px arial; color:#171717;}
+.SecondHeader {width:100%; margin:0px; padding:0px; height:56px;background-color:#fab901; }
+.SecondHeader .Logoctnr	{float:left; margin:0px 0px 0px 20px;}
+.SecondHeader .Logoctnr img {margin:10px 0px 0px 0px;}
+.SecondHeader div.UserInfo {float:right; margin:6px 134px;}
+.SecondHeader .UserInfo .UserImg {float:left; width:42px; height:42px; background-color:#fff; border:solid 1px #333;}
+.UserInfo .userDetails {float:left;}
+.UserInfo .userDetails label.Welcum {font:normal 13px tahoma; color:#222; margin:4px 0px 0px 10px; float:left;}
+.UserInfo .userDetails label.usrName {font:normal 14px tahoma; color:#fff; float:left; clear:both; margin:0px 0px 0px 10px;}
+.
+.ContentInfoCtnr .tabsPnlHdr {background:url(../images/TabsHdrBg.jpg) repeat-x; height:100px; width:100%; float:left; margin:1px 0px 0px 0px;}
+.tabsPnlHdr .tablinksCtnr {margin:0px 0px 0px 50px; }
+.tabsPnlHdr .tablinksCtnr a.tabLink {font:bold 14px/46px arial; color:#222; cursor:pointer; float:left; padding:5px 0px; margin:0px 15px;}
+.tabsPnlHdr .tablinksCtnr a.tabLinkActive {background:url(../images/TabsLinkBg.jpg) repeat-x; font:bold 14px/30px arial; height:33px; margin:14px 0px 0px 0px; -moz-border-radius:5px 5px 0px 0px; padding:0px 18px; float:left; }
+
+.ContentInfoCtnr .inputFieldsCtnr {display:block; width:950px; float:left; border:solid 1px #919191; margin:0px 0px 0px 45px;}
+.inputFieldsCtnr ul.FieldsBlock {width:580px; float:left; margin:26px 35px; padding:0px;}
+.inputFieldsCtnr ul.FieldsBlock li {width:42%; float:left; margin:15px 12px; padding:0px; list-style:none;}
+.inputFieldsCtnr ul.FieldsBlock li.FtrLinks {width:95%; float:left; clear:both; margin:0px 0px 0px 12px;}
+/*.inputFieldsCtnr ul.FieldsBlock li.FtrLinks input*/.save{background:url(../images/saveBtn.png) no-repeat;  cursor:pointer; width:121px; height:41px; float:right; border:none; margin:0px;}
+/*.inputFieldsCtnr ul.FieldsBlock li.FtrLinks input*/.edit{background:url(../images/EditBtn.png) no-repeat;  cursor:pointer; width:121px; height:41px; float:right; border:none; margin:0px;}
+/*.inputFieldsCtnr ul.FieldsBlock li.FtrLinks input*/.delete{background:url(../images/DeleteBtn.png) no-repeat;  cursor:pointer; width:121px; height:41px; float:right; border:none; margin:0px;}
+/*.inputFieldsCtnr ul.FieldsBlock li.FtrLinks input*/.update{background:url(../images/updateBtn.png) no-repeat;  cursor:pointer; width:121px; height:41px; float:right; border:none; margin:0px;}
+/*.inputFieldsCtnr ul.FieldsBlock li.FtrLinks input*/.cancel{background:url(../images/cancelBtn.png) no-repeat;  cursor:pointer; width:121px; height:41px; float:right; border:none; margin:0px;}
+/*.inputFieldsCtnr ul.FieldsBlock li.FtrLinks input*/.approve{background:url(../images/ApproveBtn.png) no-repeat;  cursor:pointer; width:121px; height:41px; float:right; border:none; margin:0px;}
+/*.inputFieldsCtnr ul.FieldsBlock li.FtrLinks input*/.reject{background:url(../images/RejectBtn.png) no-repeat;  cursor:pointer; width:121px; height:41px; float:right; border:none; margin:0px;}
+/*.inputFieldsCtnr ul.FieldsBlock li.FtrLinks input*/.reverse{background:url(../images/ReverseBtn.png) no-repeat;  cursor:pointer; width:121px; height:41px; float:right; border:none; margin:0px;}
+/*.inputFieldsCtnr ul.FieldsBlock li.FtrLinks input*/.clear {border-style: none;border-color: inherit; border-width: medium; background: url('../images/clearBtn.png') no-repeat;   
+    
+                                         
+   
+    cursor:pointer;     width:121px;     height:41px;     float:right;     margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+/*.ContentInfoCtnr .inputFieldsCtnr div.SrchRsltsHdrBar input*/.SearchBtn {background:url(../images/SearchBtn.png);cursor:pointer; width:121px; height:41px; float:right; border:none; margin:0px;}
+/*.inputFieldsCtnr ul.FieldsBlock li.FtrLinks input*/.SearchBtnIcon {border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    background: url('../images/SearchBtnIcon.png') no-repeat;
+    cursor:pointer;     width:121px;     height:41px;     float:right;     margin:0px;
+    top: 137px;
+    left: 693px;
+    }
+/*.inputFieldsCtnr ul.FieldsBlock li.FtrLinks input*/.printBtn {background:url(../images/printbtn.png) no-repeat; cursor:pointer; width:121px; height:41px; float:left; border:none; margin:0px 0px 0px 0px;}
+/*.ContentInfoCtnr .inputFieldsCtnr div.SrchRsltsHdrBar input*/.SearchBtn {background:url(../images/SearchBtn.png) no-repeat; cursor:pointer; width:101px; height:41px;  border:none; margin:1px 12px;}
+.inputFieldsCtnr ul.FieldsBlock li label {width:100%; float:left; font:bold 13px arial; color:#666;}
+.inputFieldsCtnr ul.FieldsBlock li input {border:solid 1px #a5c9d6; padding:5px; width:195px;}
+.inputFieldsCtnr ul.FieldsBlock li select {border:solid 1px #a5c9d6; padding:3px; width:205px; margin:0px; height:28px; float:left;}
+.inputFieldsCtnr ul.FieldsBlock li textarea  {border:solid 1px #a5c9d6; padding:3px; width:465px; margin:0px; height:50px; float:left; resize:none;}
+.searchResultsGrid {display:block; float:left; width:100%;}
+.SrchRsltsHdrBar {background:url(../images/SearchRsltssHdrBg.jpg) repeat-x; padding:0px 0px 0px 20px; height:34px; float:left; width:97%; font:bold 14px/34px arial; color:#222;}
+.SrchRsltsHdrBar label {float:left;}
+.SrchRsltsHdrBar input.TextBox {float:left; border:solid 1px #454545; padding:3px; width:195px; margin:5px 45px;}
+/*.ContentInfoCtnr .inputFieldsCtnr div.SrchRsltsHdrBar input*/.SearchBtn {background:url(../images/SearchBtn.png) no-repeat; cursor:pointer; width:121px; height:33px; float:right; border:none; margin:1px 12px;}
+/*.GridCtnr {float:left; width:100%; }
+.GridCtnHeader {background:url(../images/GridHdrRowBgImg.jpg); border-bottom: #919191;}*/
+*/
+/*.GridCtnr td { padding:0px; width:30%; height:41px; font:normal 13px arial; color:#222; float:left; font:bold 13px/41px arial;}*/
+.GridCtnraltRowColor {background-color:#cfdde2;}
+/*.GridCtnraltRowColor td {font:normal 13px/41px tahoma;}*/
+.GridCtnrRowColor {background-color:#fff;}
+/*.GridCtnrRowColor td {font:normal 13px/41px tahoma;}
+.ContentInfoCtnr .inputFieldsCtnr div.GridCtnr input*/.clearall {background:url(../images/ClearallBtn.png) no-repeat; cursor:pointer; width:121px; height:41px; float:left; border:none; margin:5px;}
+
+
+/* <<<--------Login page styles -------->>> */
+.ContentCtnr div.LoginCtnr	{margin:0px auto; width:100%;}
+.LoginCtnr .loginBlock	{width:460px; height:241px; border:solid 3px #9ec2d0; margin:25px auto;}
+.loginBlock .LoginHdr {font:bold 16px/41px arial; padding:0px 0px 0px 10px; color:#222; background:url(../images/login-hdrbg.jpg) repeat-x; height:41px; margin:1px; float:left; width:97.3%;}
+.loginBlock ul.LoginInfo {background:url(../images/loginbgimg.jpg) repeat-x; width:93%; padding:15px; margin:0px; float:left;
+    height: 41px;
+}
+.loginBlock ul.LoginInfo li {width:100%; list-style:none; margin:0px 10px 15px 10px; padding:0px;}
+.loginBlock ul.LoginInfo li label {font:normal 13px arial; color:#222; float:left; margin:0px 10px; width:100%;}
+.loginBlock ul.LoginInfo li input {font:normal 13px arial; color:#222; border:solid 2px #a5c9d6; padding:4px 5px; width:365px; margin:0px 0px 0px 10px; }
+.loginBlock ul.LoginInfo li input.BtnStyle { font:bold 13px arial; color:#222; background:url(../images/emptybtn.png) no-repeat; cursor:pointer; width:99px; padding:11px 0px; float:left; border:none; margin:0px 10px; float:left;}
+.loginBlock ul.LoginInfo li a.forgotPwd {font:bold 13px arial; color:#059bda; text-decoration:none; float:left; width:100%; padding:5px 8px;}
+.loginBlock ul.LoginInfo li a.forgotPwd:hover {text-decoration:underline;}
+
+.loginBlockNew	{width:460px; height:241px; border:solid 3px #9ec2d0; margin:25px auto;}
+.LoginInfoNew {background:url(../images/loginbgimg.jpg) repeat-x; width:93%; padding:15px; margin:0px; float:left;}
+
+
+
+  .load {
+    position:fixed;
+    z-index:1000;
+	width: 600px; 
+	padding: 10px;
+	margin-top: 20px;
+	margin-bottom: 250px;
+	margin-right: auto;
+	margin-left:250px; 	
+	/* opera does not like 'margin:20px auto' */
+	background: #ffffff;	
+	text-align:left; 
+	/* part 2 of 2 centering hack */
+	width: 400px; /* ie5win fudge begins */
+	voice-family: "\"}\"";
+	voice-family:inherit;
+	width: 370px;
+    top: -20px;
+    left: 0px;
+}
+
+.FormHeight {max-height:1500px; overflow:auto;}
+
+
+
+
+
+
+/*Topform*/
+.MainCtnr {width:100%;}
+.TopHeader {width:85%; margin:0px; padding:0px; height:36px; background-color:Black;}
+.TopHeader  .TopHeaderLinks {float:right;}
+.TopHeader  .TopHeaderLinks a.TopLinks {font:normal 14px/35px tahoma; color:#b3b3b3; text-decoration:none; margin:0px 10px;}
+.TopHeader  .TopHeaderLinks a.TopLinks:hover {color:#fff;}
+.TopHeader label.DateHolder {float:right; padding:0px 10px; background:url(../Images/DateBg.jpg) repeat-x; height:35px; text-align:center; font:normal 14px/35px arial; color:#171717;}
+.SecondHeader {width:100%; margin:0px; padding:0px; height:25px; background-color:#fab901;}
+.SecondHeader .Logoctnr	{float:left; margin:0px 0px 0px 20px;}
+.SecondHeader .Logoctnr img {margin:0px 0px 0px 0px;}
+.SecondHeader div.UserInfo {float:right; margin:6px 134px;}
+.SecondHeader .UserInfo .UserImg {float:left; width:42px; height:42px; background-color:#fff; border:solid 1px #333;}
+
+
+
+
+
+
+
+/*Leftform*/
+.MainCtnr {width:100%;}
+.ContentCtnr {display:block; width:100%;}
+.ContentCtnr .leftColCtnr {background-color:#fab901; height:630px; width:220px; float:left; }
+.leftColCtnr .leftpane {width:200px; float:left; margin:10px; background-color:#fff; border:solid 1px #bababa; overflow:hidden;}
+.leftpane ul#menu	{float:left; margin:0px; padding:0px; width:100%;}
+.leftpane ul#menu li {list-style:none; float:left; width:100%;}
+.leftpane ul#menu li a {font:bold 14px/35px tahoma; text-decoration:none; height:36px; background-color:Black; width:86%; cursor:pointer; padding:0px 15px; margin:0px; border-bottom:solid 1px #bababa; float:left; color:white;}
+.leftpane ul#menu li a label.arwIcon {background:url(../images/arrow-icon.png) no-repeat; width:18px; height:18px; float:right; margin:8px 0px; display:block;}
+.leftpane ul#menu li ul{margin:0px; padding:0px; width:99%; background-color:#fff;}
+.leftpane ul#menu li ul li { width:90%; padding:0px 12px;  text-decoration:none; color:#434343; float:left; background-color:white; }
+.leftpane ul#menu li ul li a {background: black; font:normal 13px/35px tahoma; height:35px; float:left; width:100%;}
+.leftpane ul#menu li ul li a:hover {background-color:green;}
+
+.ContentCtnr div.ContentInfoCtnr {width:82.3%; float:left;}
+.ContentInfoCtnr div.ContentInfoCtnrHdr {width:100%; float:left; background:url(../images/CtntInfoHdrBg.jpg) repeat-x; height:38px;}
+.ContentInfoCtnr div.ContentInfoCtnrHdr h2.CtntTitle {margin:0px; padding:0px 0px 0px 10px;font-weight:normal;  color:#222; background-color:#d9d7d8;
+    height: 33px;
+}
+.ContentInfoCtnr .tabsPnlHdr {background:url(../images/TabsHdrBg.jpg) repeat-x; height:100px; width:100%; float:left; margin:1px 0px 0px 0px;}
+
+.LabelWelcomeNew{margin:0px 0px 0px -97px}
+.BtnEmptyStyle { font:bold 13px arial; color:#222; background:url(../Images/emptybtn.png) repeat-y; cursor:pointer; padding:11px 0px;  border:none; width:99px;}
+
+
+.countryImagestyle {
+height: 110px;
+width: 120px;
+margin: 0px 60px 0px 13px;
+border-width: 0px;
+}
+.SelectCntryBlock label.SlctCntry {background:url(../images/SelectCountryImg.png) no-repeat; width:254px; height:49px; float:left; margin:0px 0px 15px 0px; }
+/*margin:0px 0px 15px 0px*  0px 65px 0px 0px*/
+.SelectCntryBlock ul.ListofCntrys {display:block; margin:-112px 0px 90px 300px; padding:0px; float:left; width:61%;}
+.SelectCntryBlock ul.ListofCntrys li {list-style:none;text-align:center; float:left; margin:0px; padding:0px; width:100px;height:100px; margin:49px 65px 0px 0px;color: black;}
+.SelectCntryBlock ul.ListofCntrys li img {float:left; border:none;}
+.SelectCntryBlock ul.ListofCntrys li a {font:normal 12px arial; color:#222; text-decoration:none; text-align:center; width:87%; float:left;margin:-15px 0px 0px 15px}
+.SelectCntryBlock ul.ListofCntrys li a:hover {text-decoration:underline;}

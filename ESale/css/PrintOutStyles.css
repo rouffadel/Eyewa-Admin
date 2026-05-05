@@ -1,0 +1,10 @@
+﻿#RFQSupplieraddress {width:880px;}
+#RFQSupplieraddress table{width:100%; float:left;}
+#tblData table{width:100%; float:left;}
+#tblData table tbody{float:left; width:100%; }
+#tblData table tbody tr{float:left; width:100%; text-align:left;}
+#tblData table tbody tr td{float:left; text-align:left; }
+
+#tblData table tbody tr#tblDataTR{float:left; width:100%; text-align:left;}
+#tblData table tbody tr#tblDataTR td{float:left; text-align:left; width:200px !important;}
+        

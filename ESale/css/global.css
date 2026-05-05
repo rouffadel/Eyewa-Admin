@@ -1,0 +1,46 @@
+/*REGISTER FORM STYLES------------------------------------------------*/
+.rightCol ul.RgstrnForm {margin:0px; padding:0px; float:left; width:100%; }
+.rightCol ul.RgstrnForm li {float:left; list-style:none; width:47%; margin:0px 20px 20px 0px; }
+.rightCol ul.RgstrnForm li.TitleHolder {width:100%; list-style:none; margin:0px 15px 0px 0px; }
+.rightCol ul.RgstrnForm li.TitleHolder h2.Title {font:bold 15px arial; color:#2A7690; width:100%; float:left;}
+.rightCol ul.RgstrnForm li label.fieldLabel {font:normal 12px arial; color:#222; width:100%;}
+.rightCol ul.RgstrnForm li input.inputField {font:nomral 14px arial; color:#666; width:90%; padding:8px 10px; border:solid 1px #c2c6ce; float:left;}
+.rightCol ul.RgstrnForm li select.CountryFiled, select.AboutUs {font:nomral 14px arial; color:#666; width:96%; padding:8px 10px; border:solid 1px #c2c6ce; float:left;}
+
+.rightCol ul.RgstrnForm li.TextArea textarea.textField {font:nomral 14px arial; color:#666; width:90%; padding:10px; border:solid 1px #c2c6ce; float:left; resize:none; height:85px;}
+.rightCol ul.RgstrnForm li.FooterFields{font:normal 13px verdana; color:#4b515d; width:95%; background-color:#edf0f3; border:solid 1px #bec1c8; padding:10px;}
+.rightCol ul.RgstrnForm li.FooterFields p.MailOffer{font:normal 12px arial; color:#4b515d; width:25%; float:left; margin:0px; padding:0px;}
+.rightCol ul.RgstrnForm li.FooterFields p.AcceptTC{font:normal 12px arial; color:#4b515d; width:55%; float:left; margin:0px; padding:0px;}
+.rightCol ul.RgstrnForm li.FooterFields p.AcceptTC a {font:normal 12px arial; color:#ef2d1d; text-decoration:none;}
+.rightCol ul.RgstrnForm li.FooterFields p.AcceptTC a:hover {text-decoration:underline;}
+
+.rightCol ul.RgstrnForm li.FooterFields p.SbmtOrCncl {width:100%; margin:15px 0px 5px 0px; padding::0px; float:left;} 
+.rightCol ul.RgstrnForm li.FooterFields p.SbmtOrCncl input.Submit[type="button"] {font:bold 13px arial; background:url(../images/LoginBtn.png) repeat-x; padding:5px 12px; color:#fff; margin:0px; border:none; -moz-border-radius:4px; -webkit-border-radius:4px; border-radius:4px; cursor:pointer; margin:0px 15px 0px 0px; border:solid 1px #8f0000;}
+
+.rightCol ul.RgstrnForm li.FooterFields p.SbmtOrCncl input.Cancel[type="button"] {font:bold 13px arial; background:url(../images/CancelBtn.png) repeat-x; padding:5px 12px; color:#fff; margin:0px; border:none; -moz-border-radius:4px; -webkit-border-radius:4px; border-radius:4px; cursor:pointer; border:solid 1px #92969e; color:#707378;}
+
+
+
+.rightCol ul.RgstrnForm {margin:0px; padding:0px; float:left; width:100%; }
+.rightCol ul.RgstrnForm li {float:left; list-style:none; width:47%; margin:22px 0px 0px 0px;font: normal 12px arial; color:#222;}
+.rightCol ul.RgstrnForm li.TitleHolder {width:100%; list-style:none; margin:10px 15px 0px 0px; }
+.rightCol ul.RgstrnForm li.TitleHolder h2.Title {font:bold 15px arial; color:#c10000; width:100%; float:left;}
+.rightCol ul.RgstrnForm li label.fieldLabel {font:normal 12px arial; color:#222; width:100%;}
+inputField {font:nomral 14px arial; color:#666; width:90%; padding:8px 10px; border:solid 1px #c2c6ce; float:left;}
+.rightCol ul.RgstrnForm li select.CountryFiled, select.AboutUs {font:nomral 14px arial; color:#666; width:96%; padding:8px 10px; border:solid 1px #c2c6ce; float:left;}
+
+.rightCol ul.RgstrnForm li.TextArea .textField {font:nomral 14px arial; color:#666; width:90%; padding:10px; border:solid 1px #c2c6ce; float:left; resize:none; height:85px;}
+.rightCol ul.RgstrnForm li.FooterFields{font:normal 13px verdana; color:#4b515d; width:95%; background-color:#edf0f3; border:solid 1px #bec1c8; padding:10px;}
+.rightCol ul.RgstrnForm li.FooterFields p.MailOffer{font:normal 12px arial; color:#4b515d; width:25%; float:left; margin:0px; padding:0px;}
+.rightCol ul.RgstrnForm li.FooterFields p.AcceptTC{font:normal 12px arial; color:#4b515d; width:55%; float:left; margin:0px; padding:0px;}
+.rightCol ul.RgstrnForm li.FooterFields p.AcceptTC a {font:normal 12px arial; color:#ef2d1d; text-decoration:none;}
+.rightCol ul.RgstrnForm li.FooterFields p.AcceptTC a:hover {text-decoration:underline;}
+
+.rightCol ul.RgstrnForm li.FooterFields p.SbmtOrCncl {width:100%; margin:15px 0px 5px 0px; padding::0px; float:left;} 
+.Submit {font:bold 13px arial; background:url(../images/LoginBtn.png) repeat-x; padding:5px 12px; color:#fff; margin:0px; border:none; -moz-border-radius:4px; -webkit-border-radius:4px; border-radius:4px; cursor:pointer; margin:0px 15px 0px 0px; border:solid 1px #8f0000;}
+
+.Cancel {font:bold 13px arial; background:url(../images/CancelRegisterBtn.png) repeat-x; padding:5px 12px; color:#fff; margin:0px; border:none; -moz-border-radius:4px; -webkit-border-radius:4px; border-radius:4px; cursor:pointer; border:solid 1px #92969e; color:#707378;}
+.PaymentTextBox {font:nomral 14px arial; color:#666; width:90%; padding:8px 10px; border:solid 1px #c2c6ce; float:left;}
+
+
+

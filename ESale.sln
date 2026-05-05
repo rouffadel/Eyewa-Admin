@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESaleDAL", "ESaleDAL\ESaleDAL.csproj", "{F8698808-8B06-4B49-AA0A-F20E7C8FCE24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESaleEntity", "ESaleEntity\ESaleEntity.csproj", "{31E683B8-2353-4479-9AFB-528B65E4E07E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F8698808-8B06-4B49-AA0A-F20E7C8FCE24} = {F8698808-8B06-4B49-AA0A-F20E7C8FCE24}
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ESale", "ESale", "{30929429-5B01-49CA-954C-222ACB48B0D2}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = "SAK"
+		SccAuxPath = "SAK"
+		SccLocalPath = "SAK"
+		SccProvider = "SAK"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{31e683b8-2353-4479-9afb-528b65e4e07e}|ESaleEntity.dll;{F8698808-8B06-4B49-AA0A-F20E7C8FCE24}|ESaleDAL.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/ESale"
+		Debug.AspNetCompiler.PhysicalPath = "ESale\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\ESale\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/ESale"
+		Release.AspNetCompiler.PhysicalPath = "ESale\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\ESale\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "2697"
+	EndProjectSection
+	ProjectSection(ProjectDependencies) = postProject
+		{F8698808-8B06-4B49-AA0A-F20E7C8FCE24} = {F8698808-8B06-4B49-AA0A-F20E7C8FCE24}
+		{31E683B8-2353-4479-9AFB-528B65E4E07E} = {31E683B8-2353-4479-9AFB-528B65E4E07E}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://eisserver3:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccWebProject1 = true
+		SccProjectUniqueName1 = ESale
+		SccProjectName1 = ESale
+		SccLocalPath1 = ESale
+		SccProjectEnlistmentChoice1 = 2
+		SccProjectUniqueName2 = ESaleDAL\\ESaleDAL.csproj
+		SccProjectName2 = ESaleDAL
+		SccLocalPath2 = ESaleDAL
+		SccProjectUniqueName3 = ESaleEntity\\ESaleEntity.csproj
+		SccProjectName3 = ESaleEntity
+		SccLocalPath3 = ESaleEntity
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8698808-8B06-4B49-AA0A-F20E7C8FCE24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8698808-8B06-4B49-AA0A-F20E7C8FCE24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8698808-8B06-4B49-AA0A-F20E7C8FCE24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8698808-8B06-4B49-AA0A-F20E7C8FCE24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31E683B8-2353-4479-9AFB-528B65E4E07E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31E683B8-2353-4479-9AFB-528B65E4E07E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31E683B8-2353-4479-9AFB-528B65E4E07E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31E683B8-2353-4479-9AFB-528B65E4E07E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30929429-5B01-49CA-954C-222ACB48B0D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30929429-5B01-49CA-954C-222ACB48B0D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30929429-5B01-49CA-954C-222ACB48B0D2}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{30929429-5B01-49CA-954C-222ACB48B0D2}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

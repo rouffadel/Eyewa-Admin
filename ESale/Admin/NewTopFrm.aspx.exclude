@@ -1,0 +1,61 @@
+<%@ Page Title="" Language="C#" MasterPageFile="~/Admin/Admin.master" AutoEventWireup="true" CodeFile="NewTopFrm.aspx.cs" Inherits="Admin_NewTopFrm" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolderTitle" Runat="Server" >
+ 
+    <%--<link href="../css/style.css" rel="Stylesheet" type="text/css" />--%> 
+    <script type="text/javascript" src="../js/jquery.js"></script>
+        <script type="text/javascript">
+           
+        </script>
+      
+        <div class="MainCtnr" style="background-color:black;">
+        <div style="background-color:White;">
+                 <img id="img1" runat="server"  style="height:36px;width:218px;float:left;background-color:Black;"  />
+            
+               <%-- <asp:Image ID="imgStore" runat="server" style="height:35px;width:218px;float:left;" AlternateText="Store Image" />--%>
+               </div>
+            <div class="TopHeader" style="margin-left:218px;">
+                
+                <label class="DateHolder" runat="server" id="lblToDayDate">20th - Feb - 2012</label>
+	            <div class="TopHeaderLinks">
+	            <asp:LinkButton ID="Hellouser" runat="server" class="TopLinks" Text="Welcome Guest" ></asp:LinkButton>
+	            <span runat="server" id="changerpassword">
+	              <a href="Changepassword.aspx" class="TopLinks" target="MainFrm"> Change Password </a>
+	              </span>
+	               <%-- <asp:LinkButton ID="LinkChangePwd" runat="server" class="TopLinks" Text="Change Password" onclick="LinkHome_Click" 
+                       ></asp:LinkButton>--%>
+	               <asp:LinkButton ID="LinkHome" runat="server" class="TopLinks" Text="Home" onclick="LinkHome_Click" 
+                       ></asp:LinkButton>
+	              <asp:LinkButton ID="lnkLogOut" runat="server" class="TopLinks" Text="Sign Out" onclick="lnkLogOut_Click" 
+                        ></asp:LinkButton>
+                        <a  id="ancfrm" href="../Screens/ClosingCounter.aspx" target='MainFrm' runat="server" class="TopLinks" visible="false">Sign Out</a>
+	             <%-- <asp:LinkButton ID="lnkThemes" runat="server" class="TopLinks" Text="Themes" OnClick="lnkThemes_Click"></asp:LinkButton>--%>
+               <%-- <asp:DropDownList ID="ddlThemes" runat="server"  Visible="false"  AutoPostBack ="true"
+                        style="background-color:White; height:24px ;color:Black;width :auto" >
+                              <asp:ListItem Value="Themes" Selected="True"></asp:ListItem>
+                              <asp:ListItem Value="Cyan"></asp:ListItem>
+                              <asp:ListItem Value="Mustard"></asp:ListItem>
+                              <asp:ListItem Value="Magenta"></asp:ListItem>
+                    </asp:DropDownList>--%>
+	            <%--<a href="" class="TopLinks">HOME</a>
+                <a href="" class="TopLinks">Sign out </a> 
+                <a href="" class="TopLinks">Themes</a>--%>
+
+           </div>
+        </div>
+      <%-- <div class="SecondHeader">--%>
+       <%-- <div class="Logoctnr">
+	       <img src="../Images/rt_img_logo.gif"  /></div>
+       </div>--%>
+       
+	      
+    <%--</div>--%>
+  </div>
+   </asp:Content>
+<%--<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolderTab" Runat="Server">
+ </asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolderMessage" Runat="Server">
+</asp:Content>
+<asp:Content ID="Content4" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+</asp:Content>
+<asp:Content ID="Content5" ContentPlaceHolderID="ContentPlaceHolder2" Runat="Server">
+</asp:Content>--%>

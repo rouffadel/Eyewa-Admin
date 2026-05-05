@@ -1,0 +1,167 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using ESaleEntity;
+using System.Data;
+using System.Data.SqlClient;
+using System.Text;
+
+public partial class Admin_NewLeftFrm : System.Web.UI.Page
+{
+    EDynamicLeftFrm objEDynamicLeftForm;
+    StringBuilder SB;
+    object obj;
+    object objScreens;
+    object objModules;
+    DataSet dsScreens;
+    DataSet dsModule;
+    string DI;
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        if (Session["LOGINID"] == null)
+        {
+            Response.Redirect("~/Login.aspx", false);
+
+        }
+        else
+        {
+            try
+            {
+                //Session["RoleId"] = 1;
+                GenerateDynamicLeftForm();
+            }
+            catch (Exception ex)
+            {
+                System.Diagnostics.StackTrace trace = new System.Diagnostics.StackTrace(ex, true);
+                GlobalDeclarations Gcd = new GlobalDeclarations();
+                // Gcd.WriteError(ex.Message, ex.StackTrace.ToString(), Session["USERNAME"].ToString(), string.Empty);
+                Response.Write("<!--" + ex.ToString() + "-->");
+            }
+            finally
+            { }
+        }
+        
+            
+
+    }
+
+    private void GenerateDynamicLeftForm()
+    {
+
+        objScreens = new object();
+        objScreens = PGetAllScreens();
+        dsScreens = (DataSet)objScreens;
+        objModules = PGetAllModules();
+        dsModule = new DataSet();
+        dsModule = (DataSet)objModules;
+        StringBuilder sb = new StringBuilder(string.Empty);
+        int i = 1;
+
+        sb.Append("<ul id='menu'>");
+        foreach (DataRow drModule in dsModule.Tables[0].Rows)
+        {
+            string ModuleName = drModule["ModuleName"].ToString();
+            bool btest = true;
+            foreach (DataRow drRoleScreen in dsScreens.Tables[0].Rows)
+            {
+                if (ModuleName == drRoleScreen["ModuleName"].ToString())
+                {
+                    if (btest)
+                    {
+                        sb.Append("<li><a href='#'>");
+                        sb.Append(ModuleName + "<label class='arwIcon'></label></a><ul>");
+                        sb.Append("<li><a href='" + drRoleScreen["SCREENURL"] + "' target='MainFrm'>");
+                        sb.Append(drRoleScreen["SCREENNAME"].ToString() + "</a></li>");
+                        btest = false;
+                        i++;
+                    }
+                    else
+                    {
+                        sb.Append("<li><a href='" + drRoleScreen["SCREENURL"] + "' target='MainFrm'>");
+                        sb.Append(drRoleScreen["SCREENNAME"].ToString() + "</a></li>");
+                    }
+                }
+            }
+            sb.Append("</ul></li>");
+        }
+        sb.Append("</ul>");
+        colapsableMenuBlock.InnerHtml = sb.ToString();
+       
+       
+                
+    }
+
+    private object PGetAllScreens()
+    {
+        obj = new object();
+        try
+        {
+            objEDynamicLeftForm = new EDynamicLeftFrm();
+            //if (Session["LoginId"].ToString() == "1")
+           // objEDynamicLeftForm.UserId = Session["LOGINTYPEID"].ToString();
+            if (Session["LoginId"].ToString() == "1")
+            {
+                obj = objEDynamicLeftForm.EGetAllScreens(objEDynamicLeftForm);
+            }
+            else
+            {
+
+                objEDynamicLeftForm.RoleId = Session["RoleId"].ToString();
+                //objEDynamicLeftForm.UserId = Session["LOGINTYPEID"].ToString();
+                obj = objEDynamicLeftForm.EGetparticularUserScreens(objEDynamicLeftForm);
+            }
+            return obj;
+        }
+        catch (Exception ex)
+        {
+            System.Diagnostics.StackTrace trace = new System.Diagnostics.StackTrace(ex, true);
+            GlobalDeclarations Gcd = new GlobalDeclarations();
+            Gcd.WriteError(ex.Message, ex.StackTrace.ToString(), Session["USERNAME"].ToString(), string.Empty);
+            Response.Write("<!--" + ex.ToString() + "-->");
+        }
+        finally
+        { }
+        return obj;
+    }
+
+    private object PGetAllModules()
+    {
+        obj = new object();
+        try
+        {
+            objEDynamicLeftForm = new EDynamicLeftFrm();
+            //if (Session["LoginId"].ToString() == "1")
+            //objEDynamicLeftForm.UserId = Session["LOGINTYPEID"].ToString();
+            if (Session["LoginId"].ToString() == "1")
+            {
+                obj = objEDynamicLeftForm.EGetAllModules(objEDynamicLeftForm);
+            }
+            else
+            {
+                //objEDynamicLeftForm.UserId = Session["UserId"].ToString();
+
+                objEDynamicLeftForm.RoleId = Session["RoleId"].ToString();
+                obj = objEDynamicLeftForm.EGetparticularUserModules(objEDynamicLeftForm);
+            }
+            return obj;
+        }
+        catch (Exception ex)
+        {
+            System.Diagnostics.StackTrace trace = new System.Diagnostics.StackTrace(ex, true);
+            GlobalDeclarations Gcd = new GlobalDeclarations();
+            Gcd.WriteError(ex.Message, ex.StackTrace.ToString(), Session["USERNAME"].ToString(), string.Empty);
+            Response.Write("<!--" + ex.ToString() + "-->");
+        }
+        finally
+        { }
+        return obj;
+    }
+    protected void Button1_Click(object sender, EventArgs e)
+    {
+        System.Threading.Thread.Sleep(5000);
+    }
+}
+

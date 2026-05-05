@@ -1,0 +1,91 @@
+.topbg {background-image:url(../Images/Images/topbg.jpg); background-repeat:repeat-x; font-family:Verdana; font-size:12px; color:#FFFFFF; font-weight:normal; text-decoration:none;}
+
+.topdesign {background-image:url(../Images/Images/topdesign.jpg); background-repeat:no-repeat; background-position:230px bottom; height:34px;}
+
+.bodytext {font-family:Verdana; font-size:12px; color:#000000; font-weight:normal; text-decoration:none;}
+
+.whitetext {font-family:Verdana; font-size:12px; color:#ffffff; font-weight:normal; text-decoration:none;}
+
+.textbox {font-family:Verdana; font-size:12px; color:#FFFFFF; font-weight:normal; text-decoration:none; width:110px; height:20px; background-color:#000000; border:solid #000000 0px; text-align:center;}
+
+.topmenu {font-family:Verdana; font-size:12px; color:#FFFFFF; font-weight:normal; text-decoration:none;}
+.topmenu:hover {font-family:Verdana; font-size:12px; color:#FFFFFF; font-weight:normal; text-decoration:underline;}
+
+.logo {background-image:url(../Images/Images/logo.gif); background-repeat:no-repeat; background-position:left; margin-left:20px; height:60px;}
+
+.greenline {background-image:url(../Images/greenline.jpg); background-repeat:repeat-x; height:12px; margin-bottom:5px; margin-top:5px;}
+.orangeline {background-image:url(../Images/orangeline.jpg); background-repeat:repeat-x; height:12px; }
+
+.heading{background-image:url(../Images/Images/headingbg.jpg); background-repeat:repeat-x; font-family:"Trebuchet MS"; font-size:18px; color:#FFFFFF; font-weight:100; text-decoration:none; height:18px; padding-bottom:3px; padding-top:3px;}
+
+.adminmenu1 {font-family:Verdana; font-size:12px; color:#5B354E; font-weight:bold; text-decoration:none; 
+             background-image:url(../Images/Images/adminicon.jpg); background-position:left; background-repeat:no-repeat; padding-left:30px; height:12px; padding-top:10px; padding-bottom:10px; display:block;}
+.adminmenu1:hover {font-family:Verdana; font-size:12px; color:#5B354E; font-weight:bold; text-decoration:underline; background-image:url(../Images/Images/adminicon.jpg); background-position:left; background-repeat:no-repeat; padding-left:30px; height:12px; padding-top:10px; padding-bottom:10px; display:block;}
+
+.adminmenu2 {font-family:Verdana; font-size:12px; color:#5B354E; font-weight:bold; text-decoration:none; background-image:url(../Images/Images/forumsicon.jpg); background-position:left; background-repeat:no-repeat; padding-left:30px; height:12px; padding-top:10px; padding-bottom:10px; display:block;}
+.adminmenu2:hover {font-family:Verdana; font-size:12px; color:#5B354E; font-weight:bold; text-decoration:underline; background-image:url(../Images/Images/forumsicon.jpg); background-position:left; background-repeat:no-repeat; padding-left:30px; height:12px; padding-top:10px; padding-bottom:10px; display:block;}
+
+.adminmenu3 {font-family:Verdana; font-size:12px; color:#5B354E; font-weight:bold; text-decoration:none; background-image:url(../Images/Images/admissionicon.jpg); background-position:left; background-repeat:no-repeat; padding-left:30px; height:12px; padding-top:10px; padding-bottom:10px; display:block;}
+.adminmenu3:hover {font-family:Verdana; font-size:12px; color:#5B354E; font-weight:bold; text-decoration:underline; background-image:url(../Images/Images/admissionicon.jpg); background-position:left; background-repeat:no-repeat; padding-left:30px; height:12px; padding-top:10px; padding-bottom:10px; display:block;}
+
+.adminmenu4 {font-family:Verdana; font-size:12px; color:#5B354E; font-weight:bold; text-decoration:none; background-image:url(../Images/Images/Polis1.jpg); background-position:left; background-repeat:no-repeat; padding-left:30px; height:12px; padding-top:10px; padding-bottom:10px; display:block;}
+.adminmenu4:hover {font-family:Verdana; font-size:12px; color:#5B354E; font-weight:bold; text-decoration:underline; background-image:url(../Images/Images/Polis1.jpg); background-position:left; background-repeat:no-repeat; padding-left:30px; height:12px; padding-top:10px; padding-bottom:10px; display:block;}
+
+.adminmenu5 {font-family:Verdana; font-size:12px; color:#5B354E; font-weight:bold; text-decoration:none; background-image:url(../Images/Images/vehicle1.jpg); background-position:left; background-repeat:no-repeat; padding-left:30px; height:12px; padding-top:10px; padding-bottom:10px; display:block;}
+.adminmenu5:hover {font-family:Verdana; font-size:12px; color:#5B354E; font-weight:bold; text-decoration:underline; background-image:url(../Images/Images/vehicle1.jpg); background-position:left; background-repeat:no-repeat; padding-left:30px; height:12px; padding-top:10px; padding-bottom:10px; display:block;}
+
+.adminmenu6 {font-family:Verdana; font-size:12px; color:#5B354E; font-weight:bold; text-decoration:none; background-image:url(../Images/Images/examsicon.jpg); background-position:left; background-repeat:no-repeat; padding-left:30px; height:12px; padding-top:10px; padding-bottom:10px; display:block;}
+.adminmenu6:hover {font-family:Verdana; font-size:12px; color:#5B354E; font-weight:bold; text-decoration:underline; background-image:url(../Images/Images/examsicon.jpg); background-position:left; background-repeat:no-repeat; padding-left:30px; height:12px; padding-top:10px; padding-bottom:10px; display:block;}
+
+.adminmenu7 {font-family:Verdana; font-size:12px; color:#5B354E; font-weight:bold; text-decoration:none; background-image:url(../Images/Images/libraryicon.jpg); background-position:left; background-repeat:no-repeat; padding-left:30px; height:12px; padding-top:10px; padding-bottom:10px; display:block;}
+.adminmenu7:hover {font-family:Verdana; font-size:12px; color:#5B354E; font-weight:bold; text-decoration:underline; background-image:url(../Images/Images/libraryicon.jpg); background-position:left; background-repeat:no-repeat; padding-left:30px; height:12px; padding-top:10px; padding-bottom:10px; display:block;}
+
+.adminmenu8 {font-family:Verdana; font-size:12px; color:#5B354E; font-weight:bold; text-decoration:none; background-image:url(../Images/Images/facultyicon.jpg); background-position:left; background-repeat:no-repeat; padding-left:30px; height:12px; padding-top:10px; padding-bottom:10px; display:block;}
+.adminmenu8:hover {font-family:Verdana; font-size:12px; color:#5B354E; font-weight:bold; text-decoration:underline; background-image:url(../Images/Images/facultyicon.jpg); background-position:left; background-repeat:no-repeat; padding-left:30px; height:12px; padding-top:10px; padding-bottom:10px; display:block;}
+
+.adminmenu9 {font-family:Verdana; font-size:12px; color:#5B354E; font-weight:bold; text-decoration:none; background-image:url(../Images/Images/Report1.jpg); background-position:left; background-repeat:no-repeat; padding-left:30px; height:12px; padding-top:10px; padding-bottom:10px; display:block;}
+.adminmenu9:hover {font-family:Verdana; font-size:12px; color:#5B354E; font-weight:bold; text-decoration:underline; background-image:url(../Images/Images/Report1.jpg); background-position:left; background-repeat:no-repeat; padding-left:30px; height:12px; padding-top:10px; padding-bottom:10px; display:block;}
+
+.adminmenu10 {font-family:Verdana; font-size:12px; color:#5B354E; font-weight:bold; text-decoration:none; background-image:url(../Images/Images/Report1.jpg); background-position:left; background-repeat:no-repeat; padding-left:30px; height:12px; padding-top:10px; padding-bottom:10px; display:block;}
+.adminmenu10:hover {font-family:Verdana; font-size:12px; color:#5B354E; font-weight:bold; text-decoration:underline; background-image:url(../Images/Images/Report1.jpg); background-position:left; background-repeat:no-repeat; padding-left:30px; height:12px; padding-top:10px; padding-bottom:10px; display:block;}
+
+.adminmenu11 {font-family:Verdana; font-size:12px; color:#5B354E; font-weight:bold; text-decoration:none; background-image:url(../Images/Images/asseticon.jpg); background-position:left; background-repeat:no-repeat; padding-left:30px; height:12px; padding-top:10px; padding-bottom:10px; display:block;}
+.adminmenu11:hover {font-family:Verdana; font-size:12px; color:#5B354E; font-weight:bold; text-decoration:underline; background-image:url(../Images/Images/asseticon.jpg); background-position:left; background-repeat:no-repeat; padding-left:30px; height:12px; padding-top:10px; padding-bottom:10px; display:block;}
+
+.adminmenu12 {font-family:Verdana; font-size:12px; color:#5B354E; font-weight:bold; text-decoration:none; background-image:url(../Images/Images/communicationicon.jpg); background-position:left; background-repeat:no-repeat; padding-left:30px; height:12px; padding-top:10px; padding-bottom:10px; display:block;}
+.adminmenu12:hover {font-family:Verdana; font-size:12px; color:#5B354E; font-weight:bold; text-decoration:underline; background-image:url(../Images/Images/communicationicon.jpg); background-position:left; background-repeat:no-repeat; padding-left:30px; height:12px; padding-top:10px; padding-bottom:10px; display:block;}
+
+.adminmenu13 {font-family:Verdana; font-size:12px; color:#5B354E; font-weight:bold; text-decoration:none; background-image:url(../Images/Images/hricon.jpg); background-position:left; background-repeat:no-repeat; padding-left:30px; height:12px; padding-top:10px; padding-bottom:10px; display:block;}
+.adminmenu13:hover {font-family:Verdana; font-size:12px; color:#5B354E; font-weight:bold; text-decoration:underline; background-image:url(../Images/Images/hricon.jpg); background-position:left; background-repeat:no-repeat; padding-left:30px; height:12px; padding-top:10px; padding-bottom:10px; display:block;}
+
+.adminmenu14 {font-family:Verdana; font-size:12px; color:#5B354E; font-weight:bold; text-decoration:none; background-image:url(../Images/Images/parenticon.jpg); background-position:left; background-repeat:no-repeat; padding-left:30px; height:12px; padding-top:10px; padding-bottom:10px; display:block;}
+.adminmenu14:hover {font-family:Verdana; font-size:12px; color:#5B354E; font-weight:bold; text-decoration:underline; background-image:url(../Images/Images/parenticon.jpg); background-position:left; background-repeat:no-repeat; padding-left:30px; height:12px; padding-top:10px; padding-bottom:10px; display:block;}
+
+.adminmenu15 {font-family:Verdana; font-size:12px; color:#5B354E; font-weight:bold; text-decoration:none; background-image:url(../Images/Images/reportsicon.jpg); background-position:left; background-repeat:no-repeat; padding-left:30px; height:12px; padding-top:10px; padding-bottom:10px; display:block;}
+.adminmenu15:hover {font-family:Verdana; font-size:12px; color:#5B354E; font-weight:bold; text-decoration:underline; background-image:url(../Images/Images/reportsicon.jpg); background-position:left; background-repeat:no-repeat; padding-left:30px; height:12px; padding-top:10px; padding-bottom:10px; display:block;}
+
+.adminmenu16 {font-family:Verdana; font-size:12px; color:#5B354E; font-weight:bold; text-decoration:none; background-image:url(../Images/Images/rolesicon.jpg); background-position:left; background-repeat:no-repeat; padding-left:30px; height:12px; padding-top:10px; padding-bottom:10px; display:block;}
+.adminmenu16:hover {font-family:Verdana; font-size:12px; color:#5B354E; font-weight:bold; text-decoration:underline; background-image:url(../Images/Images/rolesicon.jpg); background-position:left; background-repeat:no-repeat; padding-left:30px; height:12px; padding-top:10px; padding-bottom:10px; display:block;}
+
+.adminmenu17 {font-family:Verdana; font-size:12px; color:#5B354E; font-weight:bold; text-decoration:none; background-image:url(../Images/Images/reportcardsicon.jpg); background-position:left; background-repeat:no-repeat; padding-left:30px; height:12px; padding-top:10px; padding-bottom:10px; display:block;}
+.adminmenu17:hover {font-family:Verdana; font-size:12px; color:#5B354E; font-weight:bold; text-decoration:underline; background-image:url(../Images/Images/reportcardsicon.jpg); background-position:left; background-repeat:no-repeat; padding-left:30px; height:12px; padding-top:10px; padding-bottom:10px; display:block;}
+
+.adminmenu18 {font-family:Verdana; font-size:12px; color:#5B354E; font-weight:bold; text-decoration:none; background-image:url(../Images/Images/forumsicon.jpg); background-position:left; background-repeat:no-repeat; padding-left:30px; height:12px; padding-top:10px; padding-bottom:10px; display:block;}
+.adminmenu18:hover {font-family:Verdana; font-size:12px; color:#5B354E; font-weight:bold; text-decoration:underline; background-image:url(../Images/Images/forumsicon.jpg); background-position:left; background-repeat:no-repeat; padding-left:30px; height:12px; padding-top:10px; padding-bottom:10px; display:block;}
+
+.adminmenu19 {font-family:Verdana; font-size:12px; color:#5B354E; font-weight:bold; text-decoration:none; background-image:url(../Images/Images/passwordicon.jpg); background-position:left; background-repeat:no-repeat; padding-left:30px; height:12px; padding-top:10px; padding-bottom:10px; display:block;}
+.adminmenu19:hover {font-family:Verdana; font-size:12px; color:#5B354E; font-weight:bold; text-decoration:underline; background-image:url(../Images/Images/passwordicon.jpg); background-position:left; background-repeat:no-repeat; padding-left:30px; height:12px; padding-top:10px; padding-bottom:10px; display:block;}
+
+.adminmenu20 {font-family:Verdana; font-size:12px; color:#5B354E; font-weight:bold; text-decoration:none; background-image:url(../Images/Images/libraryicon.jpg); background-position:left; background-repeat:no-repeat; padding-left:30px; height:12px; padding-top:10px; padding-bottom:10px; display:block;}
+.adminmenu20:hover {font-family:Verdana; font-size:12px; color:#5B354E; font-weight:bold; text-decoration:underline; background-image:url(../Images/Images/libraryicon.jpg); background-position:left; background-repeat:no-repeat; padding-left:30px; height:12px; padding-top:10px; padding-bottom:10px; display:block;}
+
+.welcome {font-family:"Trebuchet MS"; font-size:30px; color:#5B354E; font-weight:100 ; text-decoration:none;}
+
+.copyrights {font-family:Verdana; font-size:11px; color:#000000; font-weight:normal; text-decoration:none;}
+.adminsubmenu {font-family:Verdana; font-size:11px; color:Orange; font-weight:normal; text-decoration:none; height:11px; padding-left:35px; padding-top:5px; padding-bottom:5px; display:block; margin-bottom:0px;}
+.adminsubmenu:hover {font-family:Verdana; font-size:11px; color:Orange; font-weight:normal; text-decoration:underline; height:11px; padding-left:40px; padding-top:5px; padding-bottom:5px; display:block; margin-bottom:0px;}
+.Table{ border: 1px solid silver;}
+
+.sprite-no-repeat-right, div.buttonWrap, #mainMenu dt, #mainMenu dt a {
+background: url(../Images/Images/sprite-no-repeat.gif) no-repeat top right;
+}

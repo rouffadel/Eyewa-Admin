@@ -1,0 +1,75 @@
+﻿body {
+}
+
+ .fav
+        {
+            display: inline-block;
+            font-family: FontAwesome;
+            font-style: normal;
+            font-weight: normal;
+            line-height: 2;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            cursor: pointer;
+            font-size: 1.4em;
+            padding: 4px;
+            color: #95b75d;
+            text-decoration: none;
+        }
+        .fae
+        {
+            display: inline-block;
+            font-family: FontAwesome;
+            font-style: normal;
+            font-weight: normal;
+            line-height: 2;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            cursor: pointer;
+            font-size: 1.4em;
+            padding: 4px;
+            color: #FFB000;
+            text-decoration: none;
+        }
+        .fad
+        {
+            display: inline-block;
+            font-family: FontAwesome;
+            font-style: normal;
+            font-weight: normal;
+            line-height: 2;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            cursor: pointer;
+            font-size: 1.4em;
+            padding: 4px;
+            color: #b64645;
+            text-decoration: none;
+        }
+
+.top
+{
+    margin-top:10px;
+
+}
+.notification {
+    padding:5px;
+   
+}
+.eg {
+       padding:5px;
+   width:700px;
+}
+
+
+.modal-position
+{
+position: relative;
+   left: 6%;
+}
+
+
+.tableBorder {
+    border-bottom: 5px;
+    border-top: 1px;
+}

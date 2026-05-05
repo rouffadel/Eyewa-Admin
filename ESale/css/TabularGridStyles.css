@@ -1,0 +1,83 @@
+table,tr,td,th {margin:0px; padding:0px; border:none;}
+/*Product Table Styles
+----------------------------------------------------------------------------------------------------------*/
+table.GridTable {width:695px; border:solid 1px #b2b5be;}
+table.GridTable tbody {margin:0px; padding:0px;}
+table.GridTable tbody tr:nth-child(even) {width:100%; float:left; background-color:#fff; height:35px; border-bottom:solid 1px #b2b5be;}
+table.GridTable tbody tr:nth-child(odd)  {width:100%; float:left; background-color:#ebf4f8; height:35px; }
+table.GridTable tbody tr th {background:url(../images/thBgimg.png) repeat-x; height:35px; float:left; font:bold 14px/30px arial; color:#50545b;}
+table.GridTable tbody tr th.Details {width:18%; text-align:left; padding:0px 0px 0px 12px;}
+table.GridTable tbody tr th.Name {width:34%; text-align:left; padding:0px 0px 0px 12px;}
+table.GridTable tbody tr th.Price {width:13%; text-align:left; padding:0px 0px 0px 12px;}
+table.GridTable tbody tr th.Qnty {width:13%; text-align:left; padding:0px 0px 0px 12px;}
+table.GridTable tbody tr th.Buy {width:13%; text-align:left; padding:0px 0px 0px 12px;}
+table.GridTable tbody tr td.Details {width:18%; font:normal 12px arial; color:#222; float:left; text-align:left; padding:0px 0px 0px 12px;}
+table.GridTable tbody tr td.Details img{ height:30px; float:left; margin:2px 0px;} 
+table.GridTable tbody tr td.Name {width:34%; font:normal 12px arial; color:#222; float:left; text-align:left; padding:10px 0px 10px 12px;}
+table.GridTable tbody tr td.Price {width:13%; font:normal 12px arial; color:#222; float:left; text-align:left; padding:10px 0px 10px 12px;}
+table.GridTable tbody tr td.Qnty {width:13%; font:normal 12px arial; color:#222; float:left; text-align:left; padding:6px 0px 6px 12px;}
+table.GridTable tbody tr td.Qnty select {font:normal 12px arial; color:#222; padding:3px; border:solid 1px #b4b9c1;}
+table.GridTable tbody tr td.Buy {width:13%; font:normal 12px arial; color:#222; float:left; text-align:left; padding:10px 0px 10px 12px;}
+table.GridTable tbody tr td.Buy a.buy {font:normal 12px arial; color:#ec2a1d; float:left; text-decoration:none;}
+table.GridTable tbody tr td.Buy a.buy:hover {text-decoration:underline;}
+/*Product Table Styles Ends
+----------------------------------------------------------------------------------------------------------*/
+
+/*Add to Cart Styles
+--------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+h2.AddToCartCaption{background-color:#ebf3f5; border:solid 1px #a0b9c0; font:normal 16px arial; color:#323f43; margin:17px 0px -15px -7px; padding:6px 10px; width:97%;}
+table.AddToCart {width:691px; border:solid 1px #b2b5be;}
+table.AddToCart tbody {margin:0px; padding:0px; width:100%}
+table.AddToCart tbody tr:nth-child(even) {width:100%; float:left; background-color:#fff; height:35px; border-bottom:solid 1px #b2b5be;}
+table.AddToCart tbody tr:nth-child(odd)  {width:100%; float:left; background-color:#EBF4F8; height:35px; }
+table.AddToCart tbody tr th {background:url(../images/thBgimg.png) repeat-x; height:35px;width:10%; float:left; font:bold 14px/30px arial; color:#50545b;}
+table.AddToCart tbody tr th.Details {width:18%; text-align:left; padding:0px 0px 0px 12px;}
+table.AddToCart tbody tr th.Name {width:34%; text-align:left; padding:0px 0px 0px 12px;}
+table.AddToCart tbody tr th.Price {width:18%; text-align:left; padding:0px 0px 0px 12px;}
+table.AddToCart tbody tr th.Qnty {width:13%; text-align:left; padding:0px 0px 0px 12px;}
+table.AddToCart tbody tr th.Remove {width:13%; text-align:left; padding:0px 0px 0px 12px;}
+table.AddToCart tbody tr td.Details {width:18%; font:normal 12px arial; color:#222; float:left; text-align:left; padding:0px 0px 0px 12px;}
+table.AddToCart tbody tr td.Details img{ height:30px; float:left; margin:2px 0px;} 
+table.AddToCart tbody tr td.Name {width:34%; font:normal 12px arial; color:#222; float:left; text-align:left; padding:10px 0px 10px 12px;}
+table.AddToCart tbody tr td.Price {width:13%; font:normal 12px arial; color:#222; float:left; text-align:left; padding:10px 0px 10px 12px;}
+table.AddToCart tbody tr td.Qnty {width:13%; font:normal 12px arial; color:#222; float:left; text-align:left; padding:10px 0px 10px 52px;}
+table.AddToCart tbody tr td.Remove {width:13%; font:normal 12px arial; color:#222; float:left; text-align:left; padding:2px 0px 2px 12px;}
+table.AddToCart tbody tr td.Remove a.remove {font:normal 12px arial; color:#ec2a1d; width:32px; height:32px; float:left; text-decoration:none; background:url(../images/delete-item.png) no-repeat;}
+
+table.AddToCart tbody tr.SubtotalRow {background-color:#dbf3fc; }
+table.AddToCart tbody tr.SubtotalRow td p.AmntPay {   color: #313537; float: left; font: bold 15px arial; margin: 0 5px 0 0; padding: 8px 0 8px 361px;}
+table.AddToCart tbody tr.SubtotalRow td p.SubTotal { background-color: #93c2d3;height:22px; color: #fff; float: left; font: bold 18px arial; margin: 0; padding:6px 5px; width: 128px;}
+
+input.ProceedToPay[type="button"] {background:url(../images/LoginBtn.png) repeat-x; padding:5px 15px; font:bold 15px arial; color:#fff; -moz-border-radius:5px;
+-webkit-border-radius:5px; border-radius:5px; border:solid 1px #960a04; margin:15px 10px 0px 0px; float:right; cursor:pointer;}
+input.ProceedToPay[type="button"]:hover {background-position:0px -32px;}
+
+
+/*Add to Cart Styles Ends
+--------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*MY Account Styles
+----------------------------------------------------------------------------------------------------------------*/
+table.MyAccountGrid {width:840px; border:solid 1px #b2b5be;}
+table.MyAccountGrid tbody {margin:0px; padding:0px;}
+table.MyAccountGrid tbody tr:nth-child(even) {width:100%; float:left; background-color:#fff; height:35px; border-bottom:solid 1px #b2b5be;}
+table.MyAccountGrid tbody tr:nth-child(odd)  {width:100%; float:left; background-color:#ebf4f8; height:35px; }
+table.MyAccountGrid tbody tr th {background:url(../images/thBgimg.png) repeat-x; height:35px; float:left; font:bold 14px/30px arial; color:#50545b;}
+table.MyAccountGrid tbody tr th.Date {width:32%; text-align:left; padding:0px 0px 0px 18px;}
+table.MyAccountGrid tbody tr th.Payment {width:29%; text-align:left; padding:0px 0px 0px 12px;}
+table.MyAccountGrid tbody tr th.Amount {width:34%; text-align:left; padding:0px 0px 0px 12px;}
+table.MyAccountGrid tbody tr td.Date {width:32%; font:normal 12px arial; color:#222; float:left; text-align:left; padding:0px 0px 0px 12px;}
+table.MyAccountGrid tbody tr td.Payment img{ height:30px; float:left; margin:2px 0px;} 
+table.MyAccountGrid tbody tr td.Amount {width:34%; font:normal 12px arial; color:#222; float:left; text-align:left; padding:10px 0px 10px 12px;}
+
+
+
+
+
+
+
+
+
+

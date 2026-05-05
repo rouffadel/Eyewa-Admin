@@ -1,0 +1,243 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Admin.master.cs" Inherits="Admin_Admin" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en">
+<head>
+    <title>ESales</title>
+    <%-- <meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5" />
+    <meta http-equiv="Page-Exit" content="progid:DXImageTransform.Microsoft.Fade(Duration=.7)" />--%>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <%--<link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="Stylesheet" type="text/css" href="../css/Estyle.css" />
+    <link href="../css/EOrangenew.css" rel="stylesheet" type="text/css" />
+    <link href="../css/ENewStyles.css" rel="stylesheet" type="text/css" />  
+    <link href="../css/Estyle1.css" rel="stylesheet" type="text/css" />--%>
+
+    <link type="text/css" href="../css_New/theme-default.css" rel="stylesheet" />
+  <%--  <link type="text/css" href="../css_New/fontawesome/font-awesome.min.css" rel="stylesheet" />--%>
+    <link type="text/css" href="../css_New/usericon.css" rel="stylesheet" />
+    
+    <%--<link type="text/css" href="../css_New/bootstrap/bootstrap.min.css" rel="Stylesheet" />--%>
+    <link rel="stylesheet" type="text/css" id="theme" href="../css_New/theme-default.css" />
+    <link type="text/css" href="../css_New/custom.css" rel="stylesheet" />
+
+    <style type="text/css">
+     .loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: rgba(0, 0, 0, 0.8) url(../images/wpspin_light.gif) center center no-repeat;/*black*/
+    /*background: url('../images/ajax-loader.gif') 50% 50% no-repeat rgb(249,249,249);*/
+    opacity: .8;
+    filter: alpha(opacity=60);
+
+}
+ </style>
+    <!-- EOF CSS INCLUDE -->
+    <%--<link href="../css_New/custom.css" rel="stylesheet" />--%>
+    <script type="text/javascript" src="../js/jquery.js"></script>
+ 
+   
+    <script language="javascript" type="text/javascript">
+        function DeleteConfir() {
+            var con = confirm("Do you want to Delete the Record?");
+            if (con)
+                return true;
+
+            return false;
+        }
+
+
+        var image = new Array();
+        image[0] = "../images/SlideImages/img2.jpg";
+        image[1] = "../images/SlideImages/img1.jpg";
+        image[2] = "../images/SlideImages/img3.jpg";
+        image[3] = "../images/SlideImages/img4.jpg";
+        image[4] = "../images/SlideImages/img5.jpg";
+        var k = image.length - 1;
+        function Tick() {
+            var i = parseInt(localStorage.getItem("i"));
+            if (i == undefined || i == null)
+                i = 0;
+            if (isNaN(i))
+                i = 0;
+            // $("#ibody").css("background-image", "url(" + image[i] + ")");
+            // $("#ibody").css('background-image', 'url(' + image[i] + ')');
+            //$('myOjbect').css('background-image', 'url(' + imageUrl + ')');
+            $(".body").attr("style", "background-image:url(" + image[i] + ")");
+            //.style.backgroundimage = image[i];
+
+            i = i + 1;
+            if (i == image.length)
+                i = 0;
+            localStorage.setItem("i", i);
+        }
+        $(document).ready(function () {
+            var currentpage = document.getElementById("ctl00_hdcurrentpageurl").value;
+           
+            if (currentpage != "") {
+                var $selectedLink = $('a[href$="' + currentpage + '"]:first');
+                var $submenuli = $selectedLink.closest("li");
+                $submenuli.addClass('active');
+                var parentofli = $submenuli.parentsUntil(".side-nav");
+                parentofli.each(function (index, value) {
+                    if ($(value).prop("tagName").toLowerCase() == 'li') {
+                        $(value).addClass("open active");
+                    }
+                    else if ($(value).prop("tagName").toLowerCase() == 'ul') {
+                        $(value).attr("style", "display:block;");
+                    }
+                });
+
+
+                //var parentul = parentofli.find("ul");
+                //var parentli = parentofli.find("li");
+                //var $submenuul = $submenuli.closest("ul");
+                //$submenuul.attr("style", "display:block");
+
+                var c = $selectedLink.closest('.side-nav').children('li');
+
+                var s = $selectedLink.closest('.show-module')
+                for (var i = 0; i < c.length; i++) {
+                    if (s[0].id == c[i].id) {
+                    }
+                    else {
+                        $('#' + c[i].id).removeClass('active');
+
+                    }
+                }
+            }
+        
+        });
+        //window.setInterval("Tick()",3000);
+
+    </script>
+  
+  <script type="text/javascript">
+      $(window).load(function () {
+          $(".loader").fadeOut("slow");
+      });
+</script>
+
+
+</head>
+<body style="margin-top: 0px; margin-right: 0px">
+  
+  <div class="page-container">
+    <input type="hidden" id="hdcurrentpageurl" runat="server" />
+    <div class="page-sidebar" id="colapsableMenuBlock" runat="server">
+        <!-- END X-NAVIGATION -->
+    </div>
+    <!-- END PAGE SIDEBAR -->
+    <!-- PAGE CONTENT -->
+    <div class="page-content">
+        <!-- START X-NAVIGATION VERTICAL -->
+        
+        <ul class="x-navigation x-navigation-horizontal x-navigation-panel">
+            <!-- TOGGLE NAVIGATION -->
+            <li class="xn-icon-button"><a href="#" class="x-navigation-minimize"><span class="fa fa-dedent">
+            </span></a></li>             
+
+            <li class="xn-icon-button pull-right " >
+            <a href="#" style=" margin-left: -53px;margin-top:-2px" class="mb-control" data-box="#mb-signout">
+                <span class="fa fa-power-off"></span> </a>                
+              </li>
+
+            <li class="xn-icon-button pull-right " style="margin-right: 42px;margin-top:-2px"><a href="../Admin/Default.aspx">
+                <span class="fa fa-home fa-lg" style="font-size:17px;margin-top:22%">
+                </span></a>                                                       
+                </li>
+            <li class="xn-icon-button pull-right " style="margin-right: -11px;"><a href="">
+                    <asp:Label ID="lbluser" runat="server" Text="Welcome Guest" style="margin-left: -68px;"></asp:Label>            
+            </a>
+            </li>
+             <li class="xn-icon-button pull-right " style="margin-left: -202px;"><a href="../Admin/Changepassword.aspx" style="margin-left: -110px;">              
+                    <asp:Label ID="changerpassword" runat="server" Text="Change Password"  style="margin-left: -78px;"></asp:Label>             
+            </a>
+            </li>  
+        </ul>
+       
+        <div class="page-content-wrap">    
+      
+         
+           <div class="loader"></div>
+          <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+             
+            </asp:ContentPlaceHolder>
+         
+        </div>       
+   
+
+
+         
+          
+        <!-- END PAGE CONTENT WRAPPER -->
+    </div>
+
+    </div>
+
+ 
+     <div class="message-box animated fadeIn" data-sound="alert" id="mb-signout">
+        <div class="mb-container">
+            <div class="mb-middle">
+                <div class="mb-title">
+                    <span class="fa fa-sign-out"></span>Log <strong>Out</strong> ?</div>
+                <div class="mb-content">
+                    <p>
+                        Are you sure you want to log out?</p>
+                    <p>
+                        Press No if youwant to continue work. Press Yes to logout current user.</p>
+                </div>
+                <div class="mb-footer">
+                    <div class="pull-right">
+                        <a href="../Login.aspx" class="btn btn-success btn-lg">Yes</a>
+                        <button class="btn btn-default btn-lg mb-control-close">
+                            No</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="../js_New/plugins/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="../js_New/plugins/jquery/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="../js_New/plugins/bootstrap/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="../js_New/plugins/icheck/icheck.min.js"></script>
+    <script type="text/javascript" src="../js_New/plugins/mcustomscrollbar/jquery.mCustomScrollbar.min.js"></script>
+    <script type="text/javascript" src="../js_New/plugins/scrolltotop/scrolltopcontrol.js"></script>
+
+    <script type="text/javascript" src="../js_New/plugins/bootstrap/bootstrap-datepicker.js"></script>
+    <script type="text/javascript" src="../js_New/plugins/bootstrap/bootstrap-timepicker.min.js"></script>
+    <script type="text/javascript" src="../js_New/plugins/bootstrap/bootstrap-file-input.js"></script>
+    <script type="text/javascript" src="../js_New/plugins/bootstrap/bootstrap-colorpicker.js"></script>
+    <script type="text/javascript" src="../js_New/plugins/bootstrap/bootstrap-select.js"></script>
+    <script type="text/javascript" src="../js_New/plugins/tagsinput/jquery.tagsinput.min.js"></script>
+    <script type="text/javascript" src="../js_New/plugins/datatables/jquery.dataTables.min.js"></script>
+
+    <script type="text/javascript" src="../js_New/plugins/tableexport/tableExport.js"></script>
+    <script type="text/javascript" src="../js_New/plugins/tableexport/jquery.base64.js"></script>
+    <script type="text/javascript" src="../js_New/plugins/tableexport/html2canvas.js"></script>
+
+    <script type="text/javascript" src="../js_New/plugins/tableexport/jspdf/libs/sprintf.js"></script>
+    <script type="text/javascript" src="../js_New/plugins/tableexport/jspdf/jspdf.js"></script>
+    <script type="text/javascript" src="../js_New/plugins/tableexport/jspdf/libs/base64.js"></script>
+
+    <script type="text/javascript" src="../js_New/settings.js"></script>
+    <script type="text/javascript" src="../js_New/plugins.js"></script>
+    <script type="text/javascript" src="../js_New/actions.js"></script>
+
+    
+
+
+    <script type="text/javascript" src="../js_New/plugins/jvectormap/jquery-jvectormap-2.0.1.min.js"></script>
+    <script type="text/javascript" src="../js_New/plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
+    <script type="text/javascript" src="../js_New/plugins/jvectormap/jquery-jvectormap-us-aea-en.js"></script>
+
+</body>
+</html>

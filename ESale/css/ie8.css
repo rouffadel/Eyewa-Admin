@@ -1,0 +1,60 @@
+#boxes {height:0px; }
+
+h2.AddToCartCaption {padding:0px; border:none; background:none !Important;}
+h2.AddToCartCaption span#lblCartmasg {padding:6px 10px; margin:0px 0px 0px -5px; background-color:#ebf3f5; border:solid 1px #a0b9c0; font:normal 16px arial; color:#323f43; width:675px !important; float:left;}
+
+
+
+table.AddToCart {width:695px !important; border:solid 1px #b2b5be;}
+table.AddToCart tbody {margin:0px; padding:0px; width:100%;}
+table.AddToCart tbody tr{margin:0px; padding:0px; width:100%; float:left !important;}
+table.AddToCart tbody tr:nth-child(even) {width:100% !important; float:left; background-color:#fff; height:35px; border-bottom:solid 1px #b2b5be;}
+table.AddToCart tbody tr:nth-child(odd)  {width:100% !important; float:left; background-color:#e8ecf1; height:35px; }
+table.AddToCart tbody tr th {background:url(../images/thBgimg.png) repeat-x; height:35px; float:left; font:bold 14px/30px arial; color:#50545b;}
+table.AddToCart tbody tr th.Details {width:300px; text-align:left; padding:0px 0px 0px 12px;}
+table.AddToCart tbody tr th.Name {width:34%; text-align:left; padding:0px 0px 0px 12px;}
+table.AddToCart tbody tr th.Price {width:13%; text-align:left; padding:0px 0px 0px 12px;}
+table.AddToCart tbody tr th.Qnty {width:13%; text-align:left; padding:0px 0px 0px 12px;}
+table.AddToCart tbody tr th.Buy {width:13%; text-align:left; padding:0px 0px 0px 12px;}
+table.AddToCart tbody tr td.Details {width:18%; font:normal 12px arial; color:#222; float:left; text-align:left; padding:0px 0px 0px 12px;}
+table.AddToCart tbody tr td.Details img{ height:30px; float:left; margin:2px 0px;} 
+table.AddToCart tbody tr td.Name {width:34%; font:normal 12px arial; color:#222; float:left; text-align:left; padding:10px 0px 10px 12px;}
+table.AddToCart tbody tr td.Price {width:13%; font:normal 12px arial; color:#222; float:left; text-align:left; padding:10px 0px 10px 12px;}
+table.AddToCart tbody tr td.Qnty {width:13%; font:normal 12px arial; color:#222; float:left; text-align:left; padding:6px 0px 6px 12px;}
+table.AddToCart tbody tr td.Qnty select {font:normal 12px arial; color:#222; padding:3px; border:solid 1px #b4b9c1;}
+table.AddToCart tbody tr td.Buy {width:13%; font:normal 12px arial; color:#222; float:left; text-align:left; padding:10px 0px 10px 12px;}
+table.AddToCart tbody tr td.Buy a.buy {font:normal 12px arial; color:#ec2a1d; float:left; text-decoration:none;}
+table.AddToCart tbody tr td.Buy a.buy:hover {text-decoration:underline;}
+
+table.AddToCart tbody tr.SubtotalRow {background-color:#dbf3fc; width:100% !important; float:left; position:relative; height:35px; }
+table.AddToCart tbody tr.SubtotalRow td{width:0px !Important; display:inline; padding:0px !important; float:left;}
+table.AddToCart tbody tr.SubtotalRow td p.AmntPay {   color: #313537; float: left; font: bold 15px arial; margin: 0 5px 0 0px; padding: 8px 0 8px 0px; width:130px; right:120px; position:absolute;}
+table.AddToCart tbody tr.SubtotalRow td p.SubTotal { background-color: #93c2d3;height:22px; color: #fff; float: left; font: bold 18px arial; position:absolute; right:-6px; margin: 0 5px 0 0px; padding:6px 5px; width: 128px;}
+
+input.ProceedToPay[type="button"] {background:url(../images/LoginBtn.png) repeat-x; padding:5px 15px; font:bold 15px arial; color:#fff; -moz-border-radius:5px;
+-webkit-border-radius:5px; border-radius:5px; border:solid 1px #960a04; margin:15px 10px 0px 0px; float:right; cursor:pointer;}
+input.ProceedToPay[type="button"]:hover {background-position:0px -32px;}
+
+/*#divRecommendedfriends {background-color:#fff; width:99.5%; float:left; margin:0px auto;}*/
+#divRecommendedfriends {background-color:#fff;  float:left; margin:0px auto;}
+
+.SelectCntryBlock ul.ListofCntrys li{height:120px; position:relative;}
+.SelectCntryBlock ul.ListofCntrys li a {clear:both; position:absolute; bottom:-18px; left:0px; width:100%; text-align:center;}
+
+
+.SelectCntryBlock ul.ListofCntrys li {position:relative !important; list-style:none;text-align:center; float:left; margin:0px; padding:0px; width:100px;height:100px; margin:0px 45px 0px 0px;color: black;}
+
+.FooterBlock {position:inherit !important; width:106% !important;}
+
+.LoginCountryCtntCtnr .SelectCntryBlock ul.ListofCntrys li a {margin:0px !important;}
+.AccountSettingsCtnr {float:left; width:100%; background-color:White; z-index:99999; position:relative;
+                      border:0px;}
+#pnlinvitations {height:auto !important;}
+#pnlinvitations table{height:auto !important;}
+#pnlinvitations #divInviteGmailFriends {border:none !important;}
+#divInviteGmailFriends table#GmailInvitor {border:solid 1px #c7c7c7 !important;}
+#divgvmails
+{
+	margin :
+-240px 0px 0px ! important
+}
