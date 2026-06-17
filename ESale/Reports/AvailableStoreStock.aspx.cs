@@ -376,6 +376,12 @@ public partial class Reports_AvailableStoreStock : System.Web.UI.Page
             lblavailableqty = (Label)e.Row.FindControl("lblAvailableQuantity");
             if (lblavailableqty.Text != "" && lblavailableqty.Text != null)
             {
+                if (Convert.ToSingle(lblavailableqty.Text) < 0)
+                {
+                    e.Row.BackColor = System.Drawing.Color.FromArgb(255, 199, 206); // Light red
+                    e.Row.ForeColor = System.Drawing.Color.DarkRed;                 // Dark red text
+                    e.Row.Font.Bold = true;                                         // Optional
+                }
                 availableQuntity = availableQuntity + Convert.ToSingle(lblavailableqty.Text);
             }
             Label lbltotal = new Label();

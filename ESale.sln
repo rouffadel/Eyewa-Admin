@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio Version 18
+VisualStudioVersion = 18.4.11605.240 stable
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESaleDAL", "ESaleDAL\ESaleDAL.csproj", "{F8698808-8B06-4B49-AA0A-F20E7C8FCE24}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESaleEntity", "ESaleEntity\ESaleEntity.csproj", "{31E683B8-2353-4479-9AFB-528B65E4E07E}"
@@ -8,13 +10,17 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESaleEntity", "ESaleEntity\
 		{F8698808-8B06-4B49-AA0A-F20E7C8FCE24} = {F8698808-8B06-4B49-AA0A-F20E7C8FCE24}
 	EndProjectSection
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ESale", "ESale", "{30929429-5B01-49CA-954C-222ACB48B0D2}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ESale", "ESale\", "{30929429-5B01-49CA-954C-222ACB48B0D2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F8698808-8B06-4B49-AA0A-F20E7C8FCE24} = {F8698808-8B06-4B49-AA0A-F20E7C8FCE24}
+		{31E683B8-2353-4479-9AFB-528B65E4E07E} = {31E683B8-2353-4479-9AFB-528B65E4E07E}
+	EndProjectSection
 	ProjectSection(WebsiteProperties) = preProject
 		SccProjectName = "SAK"
 		SccAuxPath = "SAK"
 		SccLocalPath = "SAK"
 		SccProvider = "SAK"
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
 		ProjectReferences = "{31e683b8-2353-4479-9afb-528b65e4e07e}|ESaleEntity.dll;{F8698808-8B06-4B49-AA0A-F20E7C8FCE24}|ESaleDAL.dll;"
 		Debug.AspNetCompiler.VirtualPath = "/ESale"
 		Debug.AspNetCompiler.PhysicalPath = "ESale\"
@@ -32,29 +38,8 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ESale", "ESale", "{30929429
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "2697"
 	EndProjectSection
-	ProjectSection(ProjectDependencies) = postProject
-		{F8698808-8B06-4B49-AA0A-F20E7C8FCE24} = {F8698808-8B06-4B49-AA0A-F20E7C8FCE24}
-		{31E683B8-2353-4479-9AFB-528B65E4E07E} = {31E683B8-2353-4479-9AFB-528B65E4E07E}
-	EndProjectSection
 EndProject
 Global
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 4
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = http://eisserver3:8080/tfs/defaultcollection
-		SccLocalPath0 = .
-		SccWebProject1 = true
-		SccProjectUniqueName1 = ESale
-		SccProjectName1 = ESale
-		SccLocalPath1 = ESale
-		SccProjectEnlistmentChoice1 = 2
-		SccProjectUniqueName2 = ESaleDAL\\ESaleDAL.csproj
-		SccProjectName2 = ESaleDAL
-		SccLocalPath2 = ESaleDAL
-		SccProjectUniqueName3 = ESaleEntity\\ESaleEntity.csproj
-		SccProjectName3 = ESaleEntity
-		SccLocalPath3 = ESaleEntity
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -75,5 +60,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {82CEDFDC-E644-4C84-9594-7FDE2EBDBB7E}
 	EndGlobalSection
 EndGlobal

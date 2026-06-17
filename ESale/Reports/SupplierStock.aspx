@@ -1,8 +1,9 @@
 <%@ Page Language="C#" MasterPageFile="~/Admin/Admin.master" AutoEventWireup="true" CodeFile="SupplierStock.aspx.cs" Inherits="Reports_SupplierStock" Title="Untitled Page" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolderTitle" Runat="Server">
-    <asp:ToolkitScriptManager ID="tsm" runat="server">
-    </asp:ToolkitScriptManager>
+    <%--<asp:ToolkitScriptManager ID="tsm" runat="server">
+    </asp:ToolkitScriptManager>--%>
+    <ajaxToolkit:ToolkitScriptManager ID="tsm" runat="server" />
      <asp:UpdatePanel ID="UpdatePanel1" runat="server">
      <ContentTemplate>
              <asp:Label ID="lblTitle" Text="Supplier Stock" runat="server" CssClass="TitleClass"></asp:Label>
