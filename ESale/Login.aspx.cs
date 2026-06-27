@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -29,22 +29,14 @@ public partial class Login : System.Web.UI.Page
     {
         try
         {
-
-            //pnlgetpassword.Visible = true;
-           // pnllogin.Visible = false;
+            pnlgetpassword.Visible = true;
+            pnlLogin.Visible = false;
             txtpassword.Enabled = false;
-            //lblTitleMsg.Text = " Get Password";
         }
         catch (Exception ex)
         {
             System.Diagnostics.StackTrace trace = new System.Diagnostics.StackTrace(ex, true);
-            //cf = new CommonFunctions();
-            // cf.WriteError(ex.Message, ex.StackTrace.ToString(), Session["LOGINNAME"].ToString(), "Search");
             Response.Write("<!--" + ex.ToString() + "-->");
-        }
-        finally
-        {
-
         }
     }
 
@@ -182,6 +174,21 @@ public partial class Login : System.Web.UI.Page
         }
 
     }
+
+    protected void Close_Click(object sender, EventArgs e)
+    {
+        try
+        {
+            pnlgetpassword.Visible = false;
+            pnlLogin.Visible = true;
+            txtpassword.Enabled = true;
+        }
+        catch (Exception ex)
+        {
+            Response.Write("<!--" + ex.ToString() + "-->");
+        }
+    }
+
 
     protected void imgbtnLogin1_Click(object sender, ImageClickEventArgs e)
     {
